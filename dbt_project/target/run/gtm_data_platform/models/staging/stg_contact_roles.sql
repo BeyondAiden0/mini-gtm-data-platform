@@ -1,0 +1,23 @@
+
+  
+  create view "data"."staging"."stg_contact_roles__dbt_tmp" as (
+    with source as (
+    select * from "data"."raw"."contact_roles"
+),
+
+cleaned as (
+    select
+        contact_role_id,
+        contact_id,
+        opp_id,
+        role,
+        is_primary
+    from source
+    where contact_role_id is not null
+        and contact_id is not null
+        and opp_id is not null
+    qualify row_number() over (partition by contact_id, opp_id order by contact_role_id) = 1
+)
+
+select * from cleaned
+  );

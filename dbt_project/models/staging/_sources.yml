@@ -1,0 +1,233 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw data loaded from GTM source systems
+    schema: raw
+    tables:
+      - name: accounts
+        description: CRM account data - companies in the CRM
+        columns:
+          - name: account_id
+            description: Primary key
+            tests:
+              - unique
+              - not_null
+          - name: name
+          - name: industry
+          - name: employee_count
+          - name: arr
+          - name: region
+          - name: owner_id
+          - name: created_at
+
+      - name: opportunities
+        description: Opportunity data - deals in the pipeline
+        columns:
+          - name: opp_id
+            description: Primary key
+          - name: account_id
+            description: Foreign key to accounts
+            tests:
+              - relationships:
+                  to: source('raw', 'accounts')
+                  field: account_id
+          - name: owner_id
+          - name: name
+          - name: stage
+          - name: amount
+          - name: close_date
+          - name: created_date
+          - name: lead_source
+          - name: forecast_category
+          - name: is_won
+          - name: is_closed
+          - name: competitor
+          - name: loss_reason
+          - name: days_in_stage
+          - name: next_step
+          - name: opportunity_type
+          - name: created_at
+
+      - name: stage_history
+        description: Opportunity stage transition history with timestamps
+        columns:
+          - name: stage_history_id
+            description: Primary key
+            tests:
+              - unique
+              - not_null
+          - name: opp_id
+            description: Foreign key to opportunities
+          - name: stage
+          - name: entered_at
+          - name: exited_at
+          - name: days_in_stage
+
+      - name: contacts
+        description: Contacts - people at accounts
+        columns:
+          - name: contact_id
+            description: Primary key
+            tests:
+              - unique
+              - not_null
+          - name: account_id
+            description: Foreign key to accounts
+            tests:
+              - relationships:
+                  to: source('raw', 'accounts')
+                  field: account_id
+          - name: first_name
+          - name: last_name
+          - name: email
+          - name: phone
+          - name: title
+          - name: role
+          - name: created_at
+
+      - name: contact_roles
+        description: Contact-opportunity role assignments for multi-threading analysis
+        columns:
+          - name: contact_role_id
+            description: Primary key
+            tests:
+              - unique
+              - not_null
+          - name: contact_id
+            description: Foreign key to contacts
+          - name: opp_id
+            description: Foreign key to opportunities
+          - name: role
+          - name: is_primary
+
+      - name: leads
+        description: Leads - prospects that may convert to opportunities
+        columns:
+          - name: lead_id
+            description: Primary key
+            tests:
+              - unique
+              - not_null
+          - name: first_name
+          - name: last_name
+          - name: email
+          - name: company
+          - name: source
+          - name: status
+          - name: score
+          - name: converted_opp_id
+          - name: converted_account_id
+          - name: converted_date
+          - name: created_at
+
+      - name: calls
+        description: Sales call recordings metadata
+        columns:
+          - name: call_id
+            description: Primary key
+            tests:
+              - unique
+              - not_null
+          - name: opp_id
+          - name: owner_id
+          - name: call_date
+          - name: duration_minutes
+          - name: direction
+          - name: call_type
+          - name: disposition
+          - name: num_participants
+          - name: talk_ratio_rep
+          - name: longest_monologue_sec
+          - name: question_count
+          - name: next_steps_mentioned
+
+      - name: call_trackers
+        description: Call topic/tracker detections
+        columns:
+          - name: tracker_id
+            description: Primary key
+            tests:
+              - unique
+              - not_null
+          - name: call_id
+            description: Foreign key to calls
+            tests:
+              - relationships:
+                  to: source('raw', 'calls')
+                  field: call_id
+          - name: tracker_name
+          - name: tracker_category
+          - name: mention_count
+
+      - name: campaigns
+        description: Marketing campaigns
+        columns:
+          - name: campaign_id
+            description: Primary key
+            tests:
+              - unique
+              - not_null
+          - name: name
+          - name: channel
+          - name: type
+          - name: status
+          - name: cost
+          - name: start_date
+          - name: end_date
+          - name: created_at
+
+      - name: lead_activities
+        description: Lead engagement activities
+        columns:
+          - name: activity_id
+            description: Primary key
+            tests:
+              - unique
+              - not_null
+          - name: lead_id
+            description: Foreign key to leads
+            tests:
+              - relationships:
+                  to: source('raw', 'leads')
+                  field: lead_id
+          - name: campaign_id
+          - name: activity_type
+          - name: activity_date
+          - name: utm_source
+
+      - name: product_users
+        description: Product analytics user profiles linked to accounts
+        columns:
+          - name: product_user_id
+            description: Primary key
+            tests:
+              - not_null
+          - name: account_id
+            description: Foreign key to accounts
+            tests:
+              - relationships:
+                  to: source('raw', 'accounts')
+                  field: account_id
+          - name: email
+          - name: role
+          - name: plan_tier
+          - name: signup_date
+          - name: last_active_date
+          - name: is_active
+
+      - name: product_events
+        description: Product feature-level usage events
+        columns:
+          - name: event_id
+            description: Primary key
+            tests:
+              - unique
+              - not_null
+          - name: product_user_id
+            description: Foreign key to product_users
+          - name: account_id
+            description: Foreign key to accounts
+          - name: feature
+          - name: action
+          - name: event_timestamp

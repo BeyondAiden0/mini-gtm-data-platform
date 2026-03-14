@@ -1,0 +1,25 @@
+
+    
+    
+
+with child as (
+    select lead_id as from_field
+    from "data"."raw"."lead_activities"
+    where lead_id is not null
+),
+
+parent as (
+    select lead_id as to_field
+    from "data"."raw"."leads"
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+

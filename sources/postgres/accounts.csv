@@ -1,0 +1,1001 @@
+account_id,name,industry,employee_count,arr,region,owner_id,created_at
+1,Nexus Corp,Transportation,810,103737,APAC,5,2023-08-24T00:00:00
+2,Summit Enterprises,,1232,116705,LATAM,14,2023-06-27T00:00:00
+3,Nova Analytics,Professional Services,28768,417351,LATAM,3,2024-10-06T00:00:00
+4,Pacific Inc,Technology,50,28677,APAC,15,2024-04-05T00:00:00
+5,Nova Dynamics,Energy,383,164888,APAC,8,2022-07-04T00:00:00
+6,Vanguard Solutions,Media & Entertainment,49,17737,North America,5,2020-04-20T00:00:00
+7,Summit Platforms,Education,1137,141071,EMEA,2,2021-07-18T00:00:00
+8,Zenith Digital,Transportation,15857,1803580,North America,8,2023-06-11T00:00:00
+9,Fusion Dynamics,Transportation,147,27791,EMEA,5,2023-08-10T00:00:00
+10,Pacific Corp,Manufacturing,1675,216574,APAC,9,2020-09-02T00:00:00
+11,Elevate Networks,Manufacturing,207,163537,North America,6,2021-05-29T00:00:00
+12,Elevate Enterprises,Healthcare,69,24373,North America,11,2024-11-09T00:00:00
+13,Nova Group,Financial Services,146,18373,APAC,3,2022-09-16T00:00:00
+14,Zenith Corp,Education,1742,20708,LATAM,6,2023-05-27T00:00:00
+15,Optima Software,Retail,113,49061,EMEA,3,2020-01-01T00:00:00
+16,Nova Networks,Financial Services,1077,191916,LATAM,7,2021-05-25T00:00:00
+17,Velocity Networks,Media & Entertainment,62,9088,LATAM,1,2024-08-31T00:00:00
+18,Summit Inc,Retail,1961,76542,North America,7,2023-12-30T00:00:00
+19,Zenith Technologies,Media & Entertainment,26,25179,LATAM,9,2020-05-03T00:00:00
+20,Vertex Technologies,Energy,194,47014,LATAM,8,2022-07-03T00:00:00
+21,Zenith Technologies,Transportation,67,49800,EMEA,7,2023-03-23T00:00:00
+22,Catalyst Networks,Financial Services,72,9925,LATAM,6,2024-08-23T00:00:00
+23,Quantum Solutions,Healthcare,119,18799,APAC,9,2020-02-18T00:00:00
+24,Vanguard Enterprises,Education,765,120455,EMEA,16,2024-12-17T00:00:00
+25,Nexus Inc,Energy,12,-2600,APAC,6,2022-08-14T00:00:00
+26,Fusion Digital,Technology,,27989,North America,8,2023-02-07T00:00:00
+27,Elevate Platforms,Media & Entertainment,668,-26965,North America,5,2024-04-25T00:00:00
+28,Global Networks,Technology,136,11838,APAC,11,2024-11-27T00:00:00
+29,Atlas Services,Transportation,94,7049,LATAM,11,2020-08-01T00:00:00
+30,Global Services,Healthcare,1490,123245,EMEA,7,2020-08-26T00:00:00
+31,Pinnacle Services,Retail,92,7828,APAC,3,2020-01-04T00:00:00
+32,Zenith Group,Education,24,36222,APAC,12,2023-10-02T00:00:00
+33,Horizon Digital,Education,370,23604,LATAM,8,2022-01-16T00:00:00
+34,Vanguard Software,Retail,119,24189,APAC,13,2024-04-17T00:00:00
+35,Elevate Inc,Financial Services,76,43135,APAC,16,2024-01-10T00:00:00
+36,Summit Software,Retail,25,27227,APAC,4,2023-04-08T00:00:00
+37,Zenith Digital,Government,499,249006,EMEA,4,2022-08-14T00:00:00
+38,Velocity Services,Transportation,120,12332,LATAM,16,2024-07-03T00:00:00
+39,Pinnacle Partners,,57,21443,LATAM,16,2024-09-30T00:00:00
+40,Pinnacle Inc,Manufacturing,1170,243421,APAC,4,2021-07-31T00:00:00
+41,Synergy Enterprises,Professional Services,131,46771,LATAM,2,2020-01-13T00:00:00
+42,Global Corp,,1774,108202,,4,2020-02-27T00:00:00
+43,Vertex Services,Healthcare,1153,159806,North America,5,2022-05-28T00:00:00
+44,Atlas Holdings,Professional Services,1047,244838,LATAM,8,2024-03-24T00:00:00
+45,Atlas Dynamics,Financial Services,103,2251,LATAM,13,2024-09-18T00:00:00
+46,Catalyst Services,Education,953,57413,LATAM,10,2022-01-29T00:00:00
+47,Synergy Systems,Financial Services,1193,126638,EMEA,12,2023-09-20T00:00:00
+48,Pacific Group,Government,67,46943,LATAM,10,2020-12-31T00:00:00
+49,Vanguard Software,Technology,51,43555,LATAM,2,2021-06-17T00:00:00
+50,Vanguard Group,Healthcare,47252,1585052,North America,7,2024-02-27T00:00:00
+51,Zenith Systems,Healthcare,155,16454,EMEA,14,2021-09-24T00:00:00
+52,Nova Software,Professional Services,688,215855,North America,5,2024-10-02T00:00:00
+53,Elevate Platforms,Retail,25,15263,LATAM,10,2023-12-23T00:00:00
+54,Vertex Enterprises,Energy,96,2936,LATAM,4,2022-01-13T00:00:00
+55,Synergy Solutions,Transportation,137,30816,EMEA,10,2020-08-22T00:00:00
+56,Summit Labs,Retail,1944,248368,EMEA,1,2022-11-02T00:00:00
+57,Acme Technologies,Telecommunications,79,42345,LATAM,3,2024-11-15T00:00:00
+58,Synergy Software,Technology,,1952401,APAC,3,2022-09-15T00:00:00
+59,Nova Networks,Retail,195,25153,APAC,6,2021-03-25T00:00:00
+60,Fusion Inc,Telecommunications,49338,851532,APAC,15,2024-06-16T00:00:00
+61,Apex Group,Education,98,45416,EMEA,13,2023-01-30T00:00:00
+62,Elevate Networks,Professional Services,95,-24790,EMEA,11,2023-02-12T00:00:00
+63,Nova Holdings,Media & Entertainment,1792,50076,LATAM,6,2020-06-25T00:00:00
+64,Velocity Solutions,Education,923,235793,LATAM,8,2024-02-23T00:00:00
+65,Vertex Services,Retail,145,46781,EMEA,7,2024-10-31T00:00:00
+66,Acme Digital,Financial Services,153,13079,LATAM,11,2022-08-28T00:00:00
+67,Synergy Corp,Media & Entertainment,185,32909,North America,15,2024-04-10T00:00:00
+68,Apex Inc,Professional Services,1938,33080,EMEA,1,2022-04-25T00:00:00
+69,Elevate Dynamics,Technology,1326,210099,APAC,9,2023-08-09T00:00:00
+70,Pinnacle Technologies,Transportation,882,201061,North America,2,2020-01-03T00:00:00
+71,Summit Enterprises,Transportation,157,23542,APAC,10,2021-12-31T00:00:00
+72,Pacific Dynamics,Education,31575,431734,EMEA,8,2024-11-04T00:00:00
+73,Nova Enterprises,Manufacturing,36,44257,North America,4,2020-04-23T00:00:00
+74,Catalyst Dynamics,Professional Services,598,123942,North America,14,2024-12-03T00:00:00
+75,Elevate Solutions,Education,163,38764,APAC,11,2024-09-08T00:00:00
+76,Catalyst Software,Government,822,109070,North America,9,2021-12-11T00:00:00
+77,Acme Labs,Financial Services,104,3779,LATAM,2,2023-08-18T00:00:00
+78,Quantum Software,Retail,204,192766,LATAM,9,2020-04-24T00:00:00
+79,Pinnacle Services,Education,110,39635,North America,4,2021-05-20T00:00:00
+80,Apex Partners,Technology,189,8044,APAC,11,2024-04-29T00:00:00
+81,Apex Technologies,Media & Entertainment,134,11443,APAC,16,2024-05-27T00:00:00
+82,Velocity Services,Technology,281,83924,North America,12,2023-02-27T00:00:00
+83,Catalyst Networks,Professional Services,113,16286,LATAM,4,2020-09-26T00:00:00
+84,Pacific Corp,Technology,162,37632,APAC,6,2022-06-28T00:00:00
+85,Nova Services,Healthcare,39,6072,APAC,13,2021-03-06T00:00:00
+86,Synergy Systems,Technology,295,47582,LATAM,8,2024-06-30T00:00:00
+87,Acme Systems,Government,128,19440,APAC,11,2021-03-21T00:00:00
+88,Acme Solutions,Telecommunications,,-3697,EMEA,13,2022-09-10T00:00:00
+89,Vertex Labs,Financial Services,,549888,APAC,2,2022-11-02T00:00:00
+90,Zenith Labs,Healthcare,1758,119818,LATAM,2,2023-11-13T00:00:00
+91,Optima Inc,Retail,14751,1145658,EMEA,15,2024-12-02T00:00:00
+92,Catalyst Holdings,Financial Services,68,9959,APAC,4,2024-08-12T00:00:00
+93,Velocity Partners,Transportation,1359,185261,North America,9,2021-12-02T00:00:00
+94,Nova Digital,Technology,349,41104,LATAM,4,2021-06-07T00:00:00
+95,Horizon Digital,Technology,165,48345,EMEA,15,2024-08-23T00:00:00
+96,Acme Group,Government,158,7019,EMEA,3,2023-06-12T00:00:00
+97,Horizon Analytics,Energy,131,5725,North America,8,2023-05-21T00:00:00
+98,Vertex Analytics,Media & Entertainment,47928,615070,EMEA,2,2024-10-30T00:00:00
+99,Pinnacle Partners,Technology,103,20470,LATAM,13,2022-03-17T00:00:00
+100,Pacific Platforms,Media & Entertainment,88,15848,LATAM,13,2021-03-29T00:00:00
+101,Summit Services,Financial Services,36,3051,LATAM,15,2024-09-01T00:00:00
+102,Atlas Corp,Energy,40994,1097795,LATAM,3,2022-06-17T00:00:00
+103,Vertex Platforms,Healthcare,323,109937,North America,11,2021-03-14T00:00:00
+104,Velocity Digital,Transportation,142,12420,LATAM,12,2021-10-22T00:00:00
+105,Quantum Services,Telecommunications,21519,1387137,LATAM,1,2024-03-20T00:00:00
+106,Global Corp,Manufacturing,219,245132,LATAM,16,2024-08-24T00:00:00
+107,Apex Analytics,,687,43345,EMEA,13,2022-09-17T00:00:00
+108,Atlas Inc,Education,1153,65025,APAC,3,2020-05-02T00:00:00
+109,Summit Inc,Professional Services,33711,1954873,EMEA,8,2020-08-01T00:00:00
+110,Synergy Group,Telecommunications,120,49848,LATAM,6,2024-03-01T00:00:00
+111,Atlas Services,Telecommunications,224,41974,EMEA,7,2021-03-26T00:00:00
+112,Zenith Platforms,Media & Entertainment,188,9422,APAC,16,2024-03-08T00:00:00
+113,Fusion Dynamics,Professional Services,105,14537,APAC,1,2022-10-29T00:00:00
+114,Summit Partners,Energy,178,33499,North America,3,2024-07-28T00:00:00
+115,Pacific Inc,Transportation,1912,177097,EMEA,6,2024-04-04T00:00:00
+116,Acme Labs,Financial Services,93,46407,North America,10,2020-12-30T00:00:00
+117,Horizon Services,Professional Services,1030,84214,LATAM,12,2021-05-25T00:00:00
+118,Velocity Networks,Telecommunications,78,48066,EMEA,11,2024-11-08T00:00:00
+119,Vanguard Holdings,Telecommunications,19162,92397,APAC,2,2020-08-21T00:00:00
+120,Velocity Software,Healthcare,319,159644,LATAM,3,2024-01-06T00:00:00
+121,Nexus Inc,Technology,35329,1154406,LATAM,9,2024-08-19T00:00:00
+122,Pinnacle Systems,Professional Services,1480,92849,EMEA,6,2023-02-22T00:00:00
+123,Optima Software,Transportation,1945,14458,EMEA,13,2022-03-27T00:00:00
+124,Elevate Digital,Government,162,38273,APAC,11,2021-08-02T00:00:00
+125,Pacific Services,Financial Services,53,21094,LATAM,9,2023-10-27T00:00:00
+126,Quantum Services,Government,101,16586,North America,15,2024-07-04T00:00:00
+127,Zenith Digital,Education,21,24961,EMEA,9,2024-12-09T00:00:00
+128,Optima Holdings,Retail,1829,39755,LATAM,1,2021-11-02T00:00:00
+129,Vertex Software,Government,15,23312,LATAM,2,2024-09-23T00:00:00
+130,Apex Group,Healthcare,246,154355,APAC,6,2023-03-28T00:00:00
+131,Vertex Group,Energy,197,7190,APAC,10,2023-08-20T00:00:00
+132,Summit Technologies,Education,12276,255065,North America,1,2023-11-27T00:00:00
+133,Nexus Labs,Energy,94,12310,APAC,6,2023-03-03T00:00:00
+134,Horizon Networks,Professional Services,69,49455,EMEA,8,2023-06-10T00:00:00
+135,Fusion Dynamics,Government,200,167,EMEA,8,2023-07-14T00:00:00
+136,Horizon Systems,Energy,39811,435445,North America,1,2023-02-13T00:00:00
+137,Global Analytics,Retail,,140773,APAC,2,2021-12-02T00:00:00
+138,Optima Solutions,Education,24,34791,LATAM,13,2021-11-21T00:00:00
+139,Pinnacle Dynamics,Education,23,32378,EMEA,11,2023-01-07T00:00:00
+140,Catalyst Corp,Technology,170,24849,EMEA,7,2023-01-09T00:00:00
+141,Optima Group,Media & Entertainment,913,200810,APAC,3,2022-08-19T00:00:00
+142,Catalyst Analytics,Energy,242,71833,LATAM,10,2020-01-11T00:00:00
+143,Horizon Enterprises,Energy,1323,70552,APAC,7,2024-11-19T00:00:00
+144,Apex Digital,Professional Services,406,101816,EMEA,6,2020-07-01T00:00:00
+145,Quantum Partners,Telecommunications,152,3268,APAC,13,2022-06-14T00:00:00
+146,Zenith Partners,Healthcare,11582,1307740,North America,1,2020-02-29T00:00:00
+147,Synergy Technologies,Healthcare,78,10950,APAC,13,2022-03-27T00:00:00
+148,Zenith Partners,Professional Services,,62128,LATAM,8,2023-04-02T00:00:00
+149,Pinnacle Labs,Retail,40625,1038141,APAC,5,2024-03-18T00:00:00
+150,Acme Solutions,Manufacturing,52,20859,North America,12,2024-07-23T00:00:00
+151,Nova Analytics,Government,63,-34113,APAC,12,2020-08-24T00:00:00
+152,Global Digital,Transportation,18,16202,EMEA,9,2023-05-14T00:00:00
+153,Vertex Analytics,Government,36282,221072,North America,6,2024-10-01T00:00:00
+154,Pacific Group,Energy,199,38010,North America,16,2024-04-06T00:00:00
+155,Summit Holdings,Media & Entertainment,187,10322,LATAM,6,2024-12-09T00:00:00
+156,Horizon Software,Education,145,28865,North America,8,2021-04-19T00:00:00
+157,Catalyst Holdings,Professional Services,33,29101,North America,15,2024-01-08T00:00:00
+158,Optima Enterprises,Energy,1242,120220,EMEA,9,2022-04-08T00:00:00
+159,Nova Partners,Education,1737,71643,,2,2024-03-04T00:00:00
+160,Vertex Networks,Retail,102,41854,EMEA,10,2024-07-29T00:00:00
+161,Elevate Networks,Healthcare,117,20848,LATAM,1,2023-03-03T00:00:00
+162,Vanguard Partners,Professional Services,33,19951,North America,15,2024-09-13T00:00:00
+163,Fusion Labs,Government,152,9781,North America,14,2023-12-28T00:00:00
+164,Pinnacle Enterprises,Government,1495,23622,APAC,14,2023-09-09T00:00:00
+165,Pinnacle Software,Transportation,60,37319,APAC,8,2022-06-12T00:00:00
+166,Optima Partners,,64,14492,APAC,7,2024-10-30T00:00:00
+167,Pinnacle Enterprises,Retail,107,12902,LATAM,11,2023-02-19T00:00:00
+168,Nexus Networks,Media & Entertainment,169,43496,LATAM,9,2022-09-17T00:00:00
+169,Pacific Labs,Manufacturing,168,37805,EMEA,15,2024-07-02T00:00:00
+170,Velocity Services,Manufacturing,140,25176,LATAM,8,2023-06-10T00:00:00
+171,Quantum Holdings,Technology,185,25536,EMEA,1,2024-05-17T00:00:00
+172,Catalyst Labs,Government,614,43370,APAC,10,2024-09-30T00:00:00
+173,Horizon Labs,,242,96563,EMEA,9,2023-10-03T00:00:00
+174,Apex Networks,Government,1149,191974,LATAM,6,2023-02-11T00:00:00
+175,Optima Systems,Healthcare,97,14003,North America,8,2020-03-02T00:00:00
+176,Zenith Inc,Media & Entertainment,63,30377,APAC,12,2022-05-09T00:00:00
+177,Nexus Dynamics,Government,172,5940,EMEA,5,2024-09-22T00:00:00
+178,Fusion Digital,Energy,623,-26055,North America,6,2021-06-14T00:00:00
+179,Horizon Platforms,Telecommunications,465,183924,North America,14,2023-11-04T00:00:00
+180,Elevate Partners,Government,,6005,APAC,8,2024-01-01T00:00:00
+181,Summit Software,Healthcare,69,6997,North America,16,2024-06-22T00:00:00
+182,Global Partners,Government,1846,188897,APAC,7,2021-03-20T00:00:00
+183,Optima Group,Financial Services,104,5601,,2,2021-12-27T00:00:00
+184,Fusion Solutions,Financial Services,1353,-124264,North America,1,2021-01-04T00:00:00
+185,Catalyst Dynamics,Education,91,15143,LATAM,12,2021-01-31T00:00:00
+186,Optima Partners,Energy,,209558,EMEA,15,2024-01-05T00:00:00
+187,Nova Group,Financial Services,1110,81020,LATAM,14,2023-09-20T00:00:00
+188,Vanguard Inc,Government,109,39781,North America,11,2023-05-11T00:00:00
+189,Horizon Analytics,Manufacturing,992,224163,North America,7,2021-03-11T00:00:00
+190,Nova Systems,Education,163,7312,EMEA,13,2024-11-04T00:00:00
+191,Pinnacle Inc,Government,64,14196,LATAM,12,2024-02-01T00:00:00
+192,Quantum Platforms,Healthcare,1527,106864,APAC,14,2020-12-28T00:00:00
+193,Zenith Solutions,Media & Entertainment,22673,439966,EMEA,1,2021-09-19T00:00:00
+194,Nova Dynamics,Technology,197,23175,,14,2023-11-18T00:00:00
+195,Nexus Networks,Transportation,258,190007,EMEA,13,2022-10-03T00:00:00
+196,Pacific Platforms,Technology,84,27168,North America,3,2021-10-15T00:00:00
+197,Optima Digital,Professional Services,25744,1587751,,2,2021-02-18T00:00:00
+198,Global Holdings,Telecommunications,151,775,EMEA,3,2023-03-06T00:00:00
+199,Vertex Inc,Energy,435,230822,APAC,7,2023-11-26T00:00:00
+200,Optima Platforms,Retail,1519,15103,North America,9,2020-06-03T00:00:00
+201,Optima Solutions,Telecommunications,126,16736,LATAM,1,2024-02-20T00:00:00
+202,Zenith Labs,Financial Services,1201,147807,North America,13,2021-12-20T00:00:00
+203,Fusion Dynamics,Manufacturing,180,14173,APAC,6,2022-01-15T00:00:00
+204,Vertex Solutions,Financial Services,25,38581,North America,4,2024-05-16T00:00:00
+205,Pacific Solutions,Education,200,262,APAC,5,2024-08-23T00:00:00
+206,Elevate Group,Government,32934,1230150,EMEA,3,2020-11-06T00:00:00
+207,Velocity Services,Professional Services,14780,1626297,,1,2022-06-07T00:00:00
+208,Fusion Holdings,Media & Entertainment,158,5972,LATAM,5,2024-01-14T00:00:00
+209,Summit Technologies,Education,47,49756,North America,11,2023-10-10T00:00:00
+210,Horizon Enterprises,Professional Services,114,19886,LATAM,13,2022-07-10T00:00:00
+211,Nexus Inc,Government,13,32883,,15,2024-10-02T00:00:00
+212,Vanguard Solutions,Technology,1019,69841,North America,3,2023-11-24T00:00:00
+213,Vanguard Holdings,Manufacturing,1386,158865,North America,1,2022-10-05T00:00:00
+214,Zenith Networks,Media & Entertainment,34934,1011723,North America,13,2023-06-04T00:00:00
+215,Acme Solutions,Retail,31277,-276243,APAC,1,2020-12-22T00:00:00
+216,Nova Digital,Telecommunications,92,29219,North America,8,2023-01-09T00:00:00
+217,Global Partners,Manufacturing,73,2252,APAC,9,2024-06-05T00:00:00
+218,Quantum Inc,Healthcare,59,30544,LATAM,3,2020-12-18T00:00:00
+219,Summit Corp,Professional Services,137,15163,EMEA,9,2022-02-07T00:00:00
+220,Pacific Inc,Transportation,869,164652,North America,5,2020-08-24T00:00:00
+221,Quantum Services,Healthcare,761,40447,LATAM,8,2021-08-27T00:00:00
+222,Nexus Services,Financial Services,164,1524,North America,4,2021-08-07T00:00:00
+223,Quantum Solutions,Media & Entertainment,117,49752,North America,15,2024-05-07T00:00:00
+224,Catalyst Platforms,Energy,66,6383,,1,2022-11-29T00:00:00
+225,Pacific Platforms,Financial Services,1605,201871,LATAM,10,2024-06-28T00:00:00
+226,Velocity Inc,Financial Services,29993,1729133,North America,2,2020-09-05T00:00:00
+227,Nova Systems,,94,48360,LATAM,4,2023-05-19T00:00:00
+228,Acme Analytics,Telecommunications,32333,307029,EMEA,8,2022-09-08T00:00:00
+229,Fusion Partners,Government,183,49113,,15,2024-01-30T00:00:00
+230,Pinnacle Corp,Retail,117,48585,LATAM,1,2022-01-12T00:00:00
+231,Vertex Networks,Media & Entertainment,150,29817,North America,15,2024-02-06T00:00:00
+232,Nova Labs,Professional Services,18,42961,North America,12,2024-05-09T00:00:00
+233,Pacific Software,Media & Entertainment,33925,473307,LATAM,15,2024-12-10T00:00:00
+234,Synergy Partners,Government,129,8679,North America,4,2021-02-14T00:00:00
+235,Velocity Services,Energy,1848,50677,EMEA,2,2023-10-23T00:00:00
+236,Nova Software,Healthcare,1818,117928,EMEA,16,2024-07-28T00:00:00
+237,Horizon Services,Transportation,153,15945,APAC,11,2023-05-24T00:00:00
+238,Zenith Labs,Healthcare,257,119498,North America,12,2020-04-10T00:00:00
+239,Quantum Technologies,Technology,50,29341,APAC,9,2022-12-29T00:00:00
+240,Pacific Analytics,Technology,1524,87656,EMEA,3,2021-08-03T00:00:00
+241,Vertex Analytics,,822,150185,APAC,3,2022-03-20T00:00:00
+242,Zenith Partners,Healthcare,1202,56204,APAC,1,2020-05-26T00:00:00
+243,Horizon Dynamics,Retail,200,33732,APAC,13,2023-11-26T00:00:00
+244,Zenith Enterprises,Government,74,20135,APAC,5,2022-06-03T00:00:00
+245,Fusion Technologies,Media & Entertainment,1381,54743,LATAM,8,2022-12-02T00:00:00
+246,Summit Holdings,Manufacturing,1436,175050,APAC,8,2021-11-03T00:00:00
+247,Pinnacle Technologies,Energy,196,4382,LATAM,8,2022-10-28T00:00:00
+248,Vanguard Holdings,Transportation,1099,207535,North America,5,2021-11-16T00:00:00
+249,Optima Networks,Manufacturing,648,23855,LATAM,10,2020-06-03T00:00:00
+250,Elevate Dynamics,Government,1972,38637,LATAM,15,2024-04-02T00:00:00
+251,Global Inc,Healthcare,146,38092,APAC,5,2022-12-23T00:00:00
+252,Elevate Dynamics,Telecommunications,1549,132370,,16,2024-06-20T00:00:00
+253,Global Group,Education,,36491,EMEA,15,2024-02-20T00:00:00
+254,Velocity Holdings,Manufacturing,24,1580,APAC,8,2020-11-18T00:00:00
+255,Pacific Systems,Transportation,185,11897,EMEA,11,2023-06-07T00:00:00
+256,Quantum Dynamics,Telecommunications,588,164505,LATAM,11,2021-12-23T00:00:00
+257,Synergy Enterprises,Energy,222,209292,APAC,15,2024-06-28T00:00:00
+258,Vertex Solutions,Transportation,192,1968,APAC,2,2024-07-17T00:00:00
+259,Acme Group,,31578,1889139,North America,2,2023-09-21T00:00:00
+260,Vertex Group,Transportation,55,11855,North America,7,2023-09-18T00:00:00
+261,Acme Platforms,Healthcare,1259,141279,North America,16,2024-08-17T00:00:00
+262,Summit Software,Energy,158,40059,North America,9,2021-07-01T00:00:00
+263,Acme Enterprises,Financial Services,35307,459900,APAC,13,2020-02-19T00:00:00
+264,Optima Analytics,Government,1354,249107,EMEA,16,2024-05-26T00:00:00
+265,Apex Solutions,Education,844,88056,APAC,14,2021-12-08T00:00:00
+266,Global Networks,Government,158,705,EMEA,10,2022-03-08T00:00:00
+267,Summit Technologies,Retail,165,20523,North America,15,2024-10-15T00:00:00
+268,Elevate Networks,Media & Entertainment,37132,1284287,EMEA,12,2022-10-29T00:00:00
+269,Nexus Enterprises,Telecommunications,43,9301,APAC,14,2024-10-15T00:00:00
+270,Elevate Partners,Financial Services,111,4754,APAC,9,2023-01-21T00:00:00
+271,Quantum Software,,131,25685,APAC,10,2024-06-18T00:00:00
+272,Atlas Services,Financial Services,43,32040,EMEA,14,2021-11-30T00:00:00
+273,Catalyst Group,Energy,64,15263,LATAM,3,2024-07-16T00:00:00
+274,Nova Group,Technology,142,31303,LATAM,11,2023-02-11T00:00:00
+275,Vertex Systems,Technology,23213,542204,LATAM,13,2023-10-20T00:00:00
+276,Global Analytics,Retail,83,15602,APAC,15,2024-12-08T00:00:00
+277,Elevate Dynamics,Education,41084,1061753,APAC,3,2022-04-28T00:00:00
+278,Zenith Software,Retail,151,48618,EMEA,9,2020-08-25T00:00:00
+279,Summit Digital,Education,194,8568,North America,1,2023-05-12T00:00:00
+280,Summit Digital,Telecommunications,125,44395,North America,3,2021-01-23T00:00:00
+281,Horizon Software,Government,38,5680,EMEA,7,2024-06-30T00:00:00
+282,Pacific Digital,,1126,116982,,2,2023-11-23T00:00:00
+283,Zenith Inc,Media & Entertainment,172,43171,EMEA,4,2022-06-07T00:00:00
+284,Nova Partners,Government,740,178977,APAC,16,2024-04-15T00:00:00
+285,Elevate Labs,Government,1487,33292,EMEA,13,2024-06-23T00:00:00
+286,Catalyst Technologies,Government,101,32888,EMEA,16,2024-06-21T00:00:00
+287,Vanguard Services,Telecommunications,489,209857,North America,15,2024-11-01T00:00:00
+288,Zenith Services,Retail,137,17741,EMEA,13,2020-08-12T00:00:00
+289,Vertex Networks,Retail,770,46346,APAC,9,2020-05-01T00:00:00
+290,Summit Systems,Media & Entertainment,832,183968,LATAM,7,2020-11-16T00:00:00
+291,Vanguard Inc,Media & Entertainment,,1650,LATAM,9,2024-11-07T00:00:00
+292,Quantum Technologies,Media & Entertainment,1486,169326,EMEA,12,2024-10-23T00:00:00
+293,Quantum Corp,Education,28752,1797849,EMEA,1,2023-03-05T00:00:00
+294,Global Digital,Media & Entertainment,139,38730,,6,2023-06-11T00:00:00
+295,Optima Services,Energy,455,17526,LATAM,7,2022-09-24T00:00:00
+296,Horizon Platforms,Financial Services,1935,22991,EMEA,2,2024-02-05T00:00:00
+297,Pinnacle Platforms,Transportation,739,152811,EMEA,4,2022-02-18T00:00:00
+298,Horizon Corp,Transportation,25290,1493926,APAC,5,2022-06-11T00:00:00
+299,Global Services,Healthcare,5386,1168752,North America,13,2020-12-30T00:00:00
+300,Horizon Dynamics,Financial Services,142,4208,EMEA,3,2022-09-30T00:00:00
+301,Fusion Labs,Telecommunications,45,24004,EMEA,9,2024-10-09T00:00:00
+302,Global Services,Transportation,7787,470495,LATAM,2,2024-01-04T00:00:00
+303,Acme Solutions,Technology,158,17929,EMEA,13,2020-01-26T00:00:00
+304,Zenith Enterprises,Media & Entertainment,,13603,North America,11,2024-03-30T00:00:00
+305,Vanguard Software,Retail,607,119333,EMEA,4,2024-01-27T00:00:00
+306,Summit Networks,Manufacturing,38102,1799505,APAC,4,2021-04-07T00:00:00
+307,Velocity Technologies,Technology,91,41788,LATAM,13,2021-07-13T00:00:00
+308,Nova Systems,Healthcare,732,40494,EMEA,9,2021-12-30T00:00:00
+309,Fusion Services,Technology,124,40054,EMEA,16,2024-06-27T00:00:00
+310,Summit Partners,Energy,151,11209,APAC,16,2024-08-07T00:00:00
+311,Horizon Partners,Manufacturing,1982,230901,North America,7,2023-09-16T00:00:00
+312,Vertex Holdings,Transportation,142,45720,North America,12,2024-09-26T00:00:00
+313,Acme Analytics,Retail,45381,1924675,EMEA,15,2024-12-09T00:00:00
+314,Summit Corp,Government,8503,1822020,North America,8,2020-10-31T00:00:00
+315,Pinnacle Services,,63,31657,North America,9,2021-10-30T00:00:00
+316,Fusion Digital,Government,170,12911,EMEA,15,2024-05-28T00:00:00
+317,Vertex Solutions,,185,17927,LATAM,10,2021-03-29T00:00:00
+318,Synergy Enterprises,Media & Entertainment,1978,44913,North America,3,2023-05-25T00:00:00
+319,Global Group,,545,128703,LATAM,6,2023-12-08T00:00:00
+320,Pinnacle Holdings,Financial Services,12,24074,North America,10,2022-03-04T00:00:00
+321,Zenith Analytics,Telecommunications,161,16666,APAC,2,2023-06-02T00:00:00
+322,Summit Services,Telecommunications,,17673,LATAM,12,2020-02-12T00:00:00
+323,Atlas Platforms,Telecommunications,192,38969,North America,12,2021-09-28T00:00:00
+324,Atlas Digital,Retail,177,11614,APAC,4,2023-03-25T00:00:00
+325,Pinnacle Partners,Transportation,74,45631,LATAM,10,2022-04-13T00:00:00
+326,Quantum Corp,Financial Services,,22539,APAC,15,2024-02-01T00:00:00
+327,Global Labs,Energy,98,9052,LATAM,6,2024-06-02T00:00:00
+328,Nova Dynamics,Transportation,68,28481,EMEA,16,2024-05-12T00:00:00
+329,Quantum Enterprises,Education,,72959,APAC,16,2024-04-19T00:00:00
+330,Vertex Partners,Telecommunications,847,137297,LATAM,14,2021-12-03T00:00:00
+331,Synergy Labs,Financial Services,57,29861,APAC,15,2024-05-31T00:00:00
+332,Pinnacle Solutions,Transportation,3875,1008259,North America,1,2023-08-22T00:00:00
+333,Global Group,Media & Entertainment,155,22989,North America,11,2022-01-27T00:00:00
+334,Horizon Systems,Healthcare,387,68780,APAC,1,2021-05-26T00:00:00
+335,Elevate Platforms,Retail,1927,106347,APAC,13,2022-04-04T00:00:00
+336,Vanguard Partners,Government,1683,215330,EMEA,11,2023-07-19T00:00:00
+337,Pinnacle Platforms,Transportation,67,12405,LATAM,14,2024-06-12T00:00:00
+338,Synergy Systems,Manufacturing,113,28975,EMEA,10,2020-07-16T00:00:00
+339,Acme Labs,Healthcare,,138857,APAC,4,2023-10-29T00:00:00
+340,Acme Services,Government,716,160377,LATAM,10,2022-05-03T00:00:00
+341,Optima Systems,Retail,40,2433,North America,10,2024-12-25T00:00:00
+342,Optima Platforms,,45,47403,EMEA,15,2024-04-20T00:00:00
+343,Elevate Systems,Education,614,219959,APAC,16,2024-01-28T00:00:00
+344,Atlas Holdings,Technology,1412,13274,LATAM,12,2022-05-09T00:00:00
+345,Optima Analytics,Financial Services,31,20381,North America,14,2020-04-21T00:00:00
+346,Velocity Enterprises,Professional Services,1895,140851,North America,4,2021-05-22T00:00:00
+347,Nexus Partners,Energy,10645,1730133,North America,16,2024-05-27T00:00:00
+348,Quantum Dynamics,Technology,89,40707,EMEA,16,2024-10-16T00:00:00
+349,Acme Dynamics,Telecommunications,1744,224924,LATAM,10,2022-08-11T00:00:00
+350,Optima Partners,Professional Services,32,13406,EMEA,11,2021-01-08T00:00:00
+351,Apex Enterprises,,189,39917,APAC,10,2022-12-29T00:00:00
+352,Global Analytics,Retail,75,12615,APAC,11,2024-08-04T00:00:00
+353,Pacific Services,Media & Entertainment,43776,941309,EMEA,15,2024-07-22T00:00:00
+354,Atlas Solutions,Financial Services,139,20591,North America,12,2020-07-26T00:00:00
+355,Acme Technologies,Manufacturing,158,5162,LATAM,8,2021-06-24T00:00:00
+356,Apex Labs,Retail,1468,193024,APAC,6,2022-02-13T00:00:00
+357,Quantum Group,Healthcare,705,21375,LATAM,9,2021-10-11T00:00:00
+358,Pacific Solutions,Professional Services,151,49572,North America,16,2024-08-31T00:00:00
+359,Horizon Holdings,Financial Services,1513,115765,APAC,7,2024-06-05T00:00:00
+360,Synergy Enterprises,Healthcare,1015,209872,EMEA,7,2023-12-05T00:00:00
+361,Acme Labs,Telecommunications,91,7428,North America,9,2024-08-09T00:00:00
+362,Horizon Labs,Government,284,33473,EMEA,10,2021-11-25T00:00:00
+363,Acme Systems,Telecommunications,138,12223,APAC,5,2024-01-08T00:00:00
+364,Vertex Digital,Telecommunications,146,10295,EMEA,7,2021-09-08T00:00:00
+365,Synergy Networks,Manufacturing,1591,140218,North America,12,2022-08-22T00:00:00
+366,Nova Inc,Financial Services,299,96518,LATAM,9,2020-12-06T00:00:00
+367,Apex Digital,Financial Services,16151,1616490,LATAM,11,2021-12-16T00:00:00
+368,Acme Services,Financial Services,1069,35361,North America,14,2023-10-18T00:00:00
+369,Apex Partners,Transportation,1480,210608,EMEA,15,2024-12-12T00:00:00
+370,Summit Labs,Media & Entertainment,146,462,EMEA,15,2024-07-22T00:00:00
+371,Velocity Networks,Energy,78,9376,EMEA,9,2023-05-23T00:00:00
+372,Zenith Labs,Energy,99,27638,LATAM,9,2023-12-21T00:00:00
+373,Vertex Analytics,Technology,125,37395,APAC,12,2023-01-26T00:00:00
+374,Synergy Platforms,Technology,132,22647,EMEA,11,2023-08-21T00:00:00
+375,Vertex Partners,Healthcare,139,38251,EMEA,10,2024-12-02T00:00:00
+376,Nexus Networks,Media & Entertainment,720,231513,EMEA,8,2022-03-12T00:00:00
+377,Elevate Software,Transportation,116,45743,EMEA,16,2024-03-07T00:00:00
+378,Synergy Dynamics,Technology,26193,1859920,APAC,3,2021-02-27T00:00:00
+379,Optima Dynamics,Media & Entertainment,1986,147392,APAC,1,2022-06-10T00:00:00
+380,Pinnacle Technologies,Education,37479,1967198,LATAM,9,2023-06-15T00:00:00
+381,Velocity Analytics,Professional Services,11,3463,LATAM,14,2023-08-01T00:00:00
+382,Acme Corp,Technology,5472,1669583,EMEA,10,2020-12-19T00:00:00
+383,Atlas Software,Education,107,20711,EMEA,15,2024-02-03T00:00:00
+384,Velocity Group,Healthcare,1726,97351,North America,14,2022-12-04T00:00:00
+385,Catalyst Partners,Government,1691,179173,APAC,14,2024-11-11T00:00:00
+386,Zenith Solutions,Transportation,1964,171768,North America,6,2020-04-08T00:00:00
+387,Fusion Services,Financial Services,36594,142461,North America,15,2024-04-27T00:00:00
+388,Elevate Group,Professional Services,1169,90098,LATAM,3,2023-07-11T00:00:00
+389,Quantum Software,Financial Services,1176,58820,North America,1,2021-07-20T00:00:00
+390,Catalyst Corp,Media & Entertainment,1865,237562,EMEA,4,2021-08-18T00:00:00
+391,Elevate Systems,Education,186,32393,LATAM,2,2021-03-22T00:00:00
+392,Optima Services,Education,17373,1687754,,9,2023-11-18T00:00:00
+393,Atlas Holdings,Government,1503,244024,LATAM,16,2024-08-21T00:00:00
+394,Nova Dynamics,Professional Services,866,56439,North America,3,2020-11-19T00:00:00
+395,Global Technologies,Retail,128,42714,APAC,14,2021-08-28T00:00:00
+396,Velocity Systems,Energy,1372,26967,LATAM,12,2023-06-02T00:00:00
+397,Elevate Platforms,Healthcare,63,12732,North America,10,2021-10-08T00:00:00
+398,Apex Partners,Retail,37739,147499,EMEA,14,2020-02-05T00:00:00
+399,Optima Systems,Government,1219,77308,LATAM,11,2022-08-15T00:00:00
+400,Elevate Technologies,Healthcare,17,789,LATAM,4,2021-04-27T00:00:00
+401,Apex Partners,Media & Entertainment,154,-20527,North America,14,2021-09-08T00:00:00
+402,Quantum Labs,Education,171,3607,APAC,4,2024-09-15T00:00:00
+403,Optima Group,Media & Entertainment,1077,16180,EMEA,12,2021-01-30T00:00:00
+404,Pinnacle Solutions,Financial Services,1784,76811,APAC,11,2022-02-01T00:00:00
+405,Pacific Enterprises,Education,4440,399101,North America,10,2021-07-14T00:00:00
+406,Acme Group,Telecommunications,1307,22791,APAC,9,2023-02-05T00:00:00
+407,Horizon Inc,Retail,1726,21579,LATAM,3,2021-04-16T00:00:00
+408,Vertex Services,Transportation,74,46946,EMEA,1,2022-01-08T00:00:00
+409,Quantum Technologies,Manufacturing,8811,1911803,EMEA,6,2020-03-25T00:00:00
+410,Horizon Technologies,Professional Services,,49348,EMEA,16,2024-01-15T00:00:00
+411,Acme Networks,Retail,12,9481,APAC,9,2023-06-30T00:00:00
+412,Catalyst Software,Education,82,11431,LATAM,11,2020-09-14T00:00:00
+413,Horizon Networks,Healthcare,40957,655611,EMEA,6,2021-12-06T00:00:00
+414,Pinnacle Digital,Professional Services,1964,211445,EMEA,6,2021-04-21T00:00:00
+415,Synergy Labs,Manufacturing,164,39825,LATAM,7,2020-07-05T00:00:00
+416,Pinnacle Software,Technology,1009,233536,APAC,11,2021-01-20T00:00:00
+417,Nova Inc,Retail,210,109692,North America,12,2021-01-06T00:00:00
+418,Synergy Corp,Energy,44027,-442223,North America,4,2023-11-25T00:00:00
+419,Acme Solutions,Media & Entertainment,167,30403,North America,9,2020-10-26T00:00:00
+420,Pacific Dynamics,Manufacturing,31,9324,North America,11,2021-12-28T00:00:00
+421,Pacific Group,Manufacturing,17635,1374310,APAC,1,2024-11-06T00:00:00
+422,Fusion Technologies,Transportation,152,3428,North America,11,2020-12-29T00:00:00
+423,Nexus Enterprises,Education,73,20405,APAC,12,2020-11-15T00:00:00
+424,Fusion Holdings,Education,125,36254,EMEA,10,2020-04-16T00:00:00
+425,Elevate Technologies,Telecommunications,49266,1608166,North America,4,2021-03-02T00:00:00
+426,Quantum Corp,Healthcare,46564,1337797,APAC,14,2023-04-30T00:00:00
+427,Pinnacle Labs,Transportation,1278,43828,LATAM,15,2024-11-24T00:00:00
+428,Catalyst Services,Media & Entertainment,281,230031,LATAM,2,2021-06-05T00:00:00
+429,Vanguard Inc,Government,162,19388,APAC,2,2020-08-10T00:00:00
+430,Vanguard Analytics,Technology,37,45451,LATAM,8,2022-03-28T00:00:00
+431,Summit Enterprises,Manufacturing,693,216488,EMEA,16,2024-08-28T00:00:00
+432,Atlas Dynamics,Technology,102,14902,North America,14,2022-03-12T00:00:00
+433,Zenith Networks,Technology,1630,119682,North America,11,2020-08-20T00:00:00
+434,Vanguard Analytics,Telecommunications,421,96259,EMEA,6,2020-07-02T00:00:00
+435,Summit Analytics,Education,97,38203,EMEA,4,2024-11-14T00:00:00
+436,Global Inc,Education,142,25842,North America,2,2024-04-20T00:00:00
+437,Nexus Holdings,Telecommunications,52,40029,North America,7,2022-06-29T00:00:00
+438,Global Inc,Telecommunications,595,226444,North America,7,2020-01-15T00:00:00
+439,Acme Digital,Government,79,29247,North America,13,2024-03-16T00:00:00
+440,Velocity Systems,Retail,150,18011,LATAM,9,2020-11-26T00:00:00
+441,Summit Partners,Media & Entertainment,,6605,LATAM,10,2024-09-29T00:00:00
+442,Nexus Inc,Professional Services,468,27571,APAC,1,2024-05-18T00:00:00
+443,Apex Systems,Healthcare,1941,204824,LATAM,13,2021-12-03T00:00:00
+444,Horizon Partners,Education,15,12094,North America,2,2024-03-21T00:00:00
+445,Quantum Labs,Healthcare,167,22179,APAC,5,2022-12-09T00:00:00
+446,Nexus Partners,Telecommunications,886,214324,North America,11,2022-04-30T00:00:00
+447,Pinnacle Dynamics,Healthcare,37,44895,EMEA,9,2021-02-05T00:00:00
+448,Vertex Dynamics,Financial Services,43,13246,APAC,12,2021-12-14T00:00:00
+449,Velocity Group,Manufacturing,1470,59064,APAC,9,2020-01-04T00:00:00
+450,Catalyst Networks,Transportation,1375,71349,EMEA,14,2022-12-17T00:00:00
+451,Zenith Dynamics,Energy,1278,233862,EMEA,8,2024-01-15T00:00:00
+452,Pinnacle Networks,Government,28,22391,North America,13,2023-08-25T00:00:00
+453,Atlas Partners,Government,135,7202,LATAM,7,2021-05-20T00:00:00
+454,Nexus Holdings,Education,35,11482,APAC,15,2024-09-21T00:00:00
+455,Velocity Labs,Media & Entertainment,13665,1015556,LATAM,1,2020-07-27T00:00:00
+456,Global Enterprises,Media & Entertainment,1030,67612,North America,7,2021-12-23T00:00:00
+457,Pacific Networks,Technology,80,25,APAC,13,2022-03-11T00:00:00
+458,Pacific Platforms,Energy,18,42558,EMEA,12,2021-08-10T00:00:00
+459,Global Inc,Education,1741,155041,EMEA,6,2023-01-16T00:00:00
+460,Horizon Technologies,Telecommunications,123,12823,North America,13,2020-08-11T00:00:00
+461,Summit Dynamics,Energy,82,4144,North America,13,2023-03-08T00:00:00
+462,Horizon Corp,Healthcare,48528,579927,EMEA,7,2022-02-12T00:00:00
+463,Zenith Software,Telecommunications,44,13030,APAC,6,2021-05-16T00:00:00
+464,Elevate Dynamics,Transportation,168,40459,LATAM,10,2022-12-31T00:00:00
+465,Pinnacle Enterprises,Healthcare,28,14362,North America,1,2024-11-07T00:00:00
+466,Pinnacle Solutions,Professional Services,164,47296,LATAM,2,2023-08-31T00:00:00
+467,Velocity Inc,Transportation,,130241,EMEA,16,2024-02-15T00:00:00
+468,Synergy Systems,Media & Entertainment,34,39093,LATAM,15,2024-05-18T00:00:00
+469,Optima Networks,Healthcare,145,37164,North America,7,2022-10-11T00:00:00
+470,Nova Analytics,Government,163,-38508,North America,5,2023-07-02T00:00:00
+471,Elevate Group,Manufacturing,15060,189459,LATAM,10,2023-06-29T00:00:00
+472,Global Inc,Professional Services,917,244479,North America,7,2023-12-21T00:00:00
+473,Pacific Labs,Transportation,997,188799,APAC,10,2021-12-11T00:00:00
+474,Pacific Corp,Transportation,33252,595217,North America,5,2024-01-04T00:00:00
+475,Global Group,Government,,515571,North America,1,2024-08-18T00:00:00
+476,Elevate Labs,Healthcare,32405,1139558,North America,1,2022-02-05T00:00:00
+477,Horizon Enterprises,Government,911,101790,LATAM,12,2022-02-25T00:00:00
+478,Elevate Corp,Government,38003,1840039,APAC,2,2022-02-23T00:00:00
+479,Apex Inc,Professional Services,1513,220834,North America,11,2023-02-26T00:00:00
+480,Zenith Systems,Energy,1562,22905,LATAM,12,2022-08-17T00:00:00
+481,Nova Digital,Financial Services,281,32765,EMEA,2,2021-10-07T00:00:00
+482,Acme Technologies,Financial Services,144,37900,North America,16,2024-12-16T00:00:00
+483,Pinnacle Enterprises,Healthcare,152,3935,LATAM,15,2024-08-05T00:00:00
+484,Quantum Holdings,Transportation,49,10646,North America,16,2024-02-06T00:00:00
+485,Nova Software,Education,56,43328,LATAM,5,2021-03-14T00:00:00
+486,Vanguard Platforms,Professional Services,,149615,EMEA,5,2024-04-27T00:00:00
+487,Pinnacle Software,Education,154,25981,LATAM,8,2023-08-06T00:00:00
+488,Vanguard Enterprises,Professional Services,1649,38932,EMEA,11,2024-06-02T00:00:00
+489,Pacific Group,Retail,1451,52638,APAC,10,2024-02-12T00:00:00
+490,Vertex Holdings,Professional Services,1962,134908,APAC,3,2021-08-06T00:00:00
+491,Pacific Technologies,Healthcare,353,239348,North America,8,2022-09-17T00:00:00
+492,Catalyst Group,Government,1333,14963,LATAM,4,2020-03-01T00:00:00
+493,Velocity Technologies,Media & Entertainment,154,30620,EMEA,4,2021-10-20T00:00:00
+494,Quantum Inc,Government,35,45837,APAC,13,2021-09-04T00:00:00
+495,Nova Partners,Retail,36537,946242,North America,11,2024-09-14T00:00:00
+496,Atlas Partners,Technology,1225,127078,North America,9,2024-01-13T00:00:00
+497,Pinnacle Partners,,120,21900,APAC,10,2020-03-09T00:00:00
+498,Vertex Platforms,Education,159,15257,LATAM,1,2022-12-10T00:00:00
+499,Fusion Labs,Media & Entertainment,1185,72740,LATAM,1,2022-01-13T00:00:00
+500,Quantum Partners,Transportation,463,77447,APAC,3,2020-04-15T00:00:00
+501,Zenith Software,Manufacturing,86,10347,LATAM,16,2024-04-05T00:00:00
+502,Nova Inc,Manufacturing,789,143351,APAC,4,2021-03-13T00:00:00
+503,Acme Platforms,,1029,23156,,7,2022-08-06T00:00:00
+504,Nexus Platforms,Professional Services,1346,87109,LATAM,1,2022-08-15T00:00:00
+505,Apex Networks,Retail,62,20486,North America,13,2020-03-18T00:00:00
+506,Velocity Technologies,Retail,108,31128,LATAM,13,2021-06-20T00:00:00
+507,Optima Labs,Healthcare,1514,198306,EMEA,11,2023-07-12T00:00:00
+508,Nexus Partners,Healthcare,478,116454,APAC,14,2022-11-17T00:00:00
+509,Acme Labs,Government,162,26991,LATAM,11,2023-03-03T00:00:00
+510,Vanguard Networks,Healthcare,586,146866,EMEA,13,2022-08-09T00:00:00
+511,Acme Networks,Technology,41891,1251088,North America,1,2024-06-22T00:00:00
+512,Fusion Labs,Telecommunications,45537,892530,LATAM,1,2022-10-04T00:00:00
+513,Quantum Platforms,Technology,176,8884,LATAM,2,2022-02-11T00:00:00
+514,Quantum Partners,Financial Services,164,29130,North America,13,2022-07-15T00:00:00
+515,Apex Systems,Media & Entertainment,109,41422,North America,14,2022-08-02T00:00:00
+516,Synergy Inc,Education,851,218571,North America,2,2020-09-17T00:00:00
+517,Apex Labs,Retail,110,5320,EMEA,14,2021-09-07T00:00:00
+518,Elevate Digital,Retail,1752,181435,APAC,4,2020-04-22T00:00:00
+519,Pacific Analytics,Education,123,31591,APAC,16,2024-12-17T00:00:00
+520,Zenith Holdings,Healthcare,69,38089,North America,11,2020-02-12T00:00:00
+521,Quantum Systems,Healthcare,998,124496,APAC,8,2022-10-18T00:00:00
+522,Optima Dynamics,Retail,122,35075,APAC,5,2024-08-21T00:00:00
+523,Catalyst Software,Professional Services,1618,243753,EMEA,7,2021-06-16T00:00:00
+524,Nova Analytics,Energy,451,158825,EMEA,14,2024-05-23T00:00:00
+525,Optima Solutions,Government,1916,63591,LATAM,5,2021-03-10T00:00:00
+526,Apex Software,Government,20,13389,North America,11,2023-01-03T00:00:00
+527,Fusion Analytics,Financial Services,,83347,EMEA,13,2021-07-17T00:00:00
+528,Synergy Enterprises,Financial Services,437,33523,North America,12,2024-10-15T00:00:00
+529,Nova Technologies,Financial Services,179,34367,APAC,6,2023-12-17T00:00:00
+530,Pacific Platforms,Education,6503,1781192,APAC,15,2024-12-25T00:00:00
+531,Catalyst Enterprises,Energy,1063,170201,APAC,11,2021-09-02T00:00:00
+532,Summit Analytics,Education,44027,1765788,EMEA,14,2021-06-21T00:00:00
+533,Quantum Systems,Telecommunications,39029,1263459,,2,2022-10-10T00:00:00
+534,Optima Analytics,Transportation,326,18978,North America,10,2022-06-22T00:00:00
+535,Elevate Partners,Education,441,229111,APAC,6,2024-06-15T00:00:00
+536,Horizon Analytics,Financial Services,86,9161,North America,15,2024-03-15T00:00:00
+537,Apex Holdings,Energy,174,17255,North America,12,2020-08-31T00:00:00
+538,Acme Software,Media & Entertainment,38943,763290,LATAM,1,2022-09-13T00:00:00
+539,Catalyst Holdings,Media & Entertainment,1533,97049,LATAM,13,2023-11-21T00:00:00
+540,Summit Software,Manufacturing,106,23203,EMEA,2,2022-01-06T00:00:00
+541,Global Labs,Education,86,40147,LATAM,12,2020-09-15T00:00:00
+542,Quantum Digital,Government,234,182206,North America,3,2023-01-05T00:00:00
+543,Optima Solutions,Retail,1147,117449,APAC,4,2021-02-21T00:00:00
+544,Horizon Software,Professional Services,47,31839,North America,9,2022-06-24T00:00:00
+545,Atlas Corp,Education,1890,76043,,10,2021-01-24T00:00:00
+546,Pacific Corp,Energy,345,209991,APAC,10,2022-11-24T00:00:00
+547,Zenith Corp,Healthcare,42,26168,LATAM,13,2022-07-01T00:00:00
+548,Catalyst Labs,Technology,1086,12999,APAC,2,2023-01-04T00:00:00
+549,Velocity Systems,Government,,30788,APAC,7,2023-11-30T00:00:00
+550,Summit Services,Energy,166,24010,APAC,5,2022-04-29T00:00:00
+551,Vertex Services,Education,176,28959,North America,9,2021-07-22T00:00:00
+552,Velocity Dynamics,Transportation,16257,795078,North America,9,2023-09-13T00:00:00
+553,Quantum Corp,Healthcare,1721,191702,EMEA,3,2021-04-11T00:00:00
+554,Synergy Holdings,Retail,180,47474,LATAM,9,2020-12-29T00:00:00
+555,Global Labs,Government,1145,215490,LATAM,14,2022-04-15T00:00:00
+556,Apex Technologies,Financial Services,115,30368,LATAM,4,2023-01-10T00:00:00
+557,Vanguard Services,Manufacturing,38790,1264363,EMEA,15,2024-02-10T00:00:00
+558,Atlas Technologies,Transportation,1235,55480,EMEA,4,2023-09-29T00:00:00
+559,Velocity Digital,Transportation,177,5613,North America,8,2023-04-24T00:00:00
+560,Vertex Solutions,Healthcare,11,29798,EMEA,3,2023-09-15T00:00:00
+561,Velocity Holdings,Transportation,20,33461,LATAM,16,2024-12-09T00:00:00
+562,Pacific Services,Transportation,18,17686,LATAM,1,2022-12-26T00:00:00
+563,Atlas Enterprises,Transportation,24,25920,EMEA,8,2023-08-30T00:00:00
+564,Velocity Group,Professional Services,38,40775,North America,15,2024-10-31T00:00:00
+565,Velocity Corp,Energy,49206,809185,EMEA,5,2021-07-09T00:00:00
+566,Optima Inc,Telecommunications,1459,108380,North America,2,2022-05-26T00:00:00
+567,Nova Analytics,Government,169,41433,APAC,16,2024-08-21T00:00:00
+568,Atlas Software,Manufacturing,51,1463,APAC,1,2021-11-21T00:00:00
+569,Catalyst Networks,Energy,14,12394,,5,2024-10-23T00:00:00
+570,Summit Labs,Manufacturing,857,218648,APAC,11,2021-06-04T00:00:00
+571,Zenith Services,Energy,16617,478104,North America,16,2024-10-12T00:00:00
+572,Fusion Digital,Financial Services,10732,1482048,APAC,7,2020-01-23T00:00:00
+573,Catalyst Holdings,Retail,144,13216,North America,10,2024-12-05T00:00:00
+574,Summit Networks,Financial Services,749,232060,EMEA,14,2024-05-07T00:00:00
+575,Velocity Solutions,Media & Entertainment,31546,1167681,EMEA,9,2022-10-12T00:00:00
+576,Apex Analytics,Professional Services,647,171770,North America,9,2021-02-19T00:00:00
+577,Apex Inc,Energy,64,23855,APAC,5,2021-04-04T00:00:00
+578,Vanguard Labs,Education,161,21466,LATAM,10,2024-03-10T00:00:00
+579,Optima Labs,Government,159,27105,LATAM,15,2024-04-01T00:00:00
+580,Global Technologies,Education,65,14114,LATAM,5,2024-07-28T00:00:00
+581,Fusion Enterprises,Manufacturing,1906,237245,North America,4,2024-05-04T00:00:00
+582,Global Holdings,Transportation,167,19516,EMEA,12,2022-04-13T00:00:00
+583,Summit Digital,Energy,47504,1080798,APAC,1,2024-05-20T00:00:00
+584,Vertex Group,Professional Services,89,11944,APAC,7,2024-12-14T00:00:00
+585,Nexus Technologies,Manufacturing,1649,22648,LATAM,13,2022-01-03T00:00:00
+586,Atlas Platforms,Media & Entertainment,188,49360,,13,2023-09-27T00:00:00
+587,Atlas Enterprises,Technology,9356,1505993,LATAM,9,2022-03-07T00:00:00
+588,Catalyst Systems,Telecommunications,1315,130922,North America,2,2021-07-15T00:00:00
+589,Pinnacle Enterprises,Transportation,66,6123,LATAM,5,2023-02-09T00:00:00
+590,Vanguard Digital,Media & Entertainment,859,46310,North America,9,2023-12-05T00:00:00
+591,Horizon Corp,Telecommunications,931,218009,LATAM,7,2021-12-10T00:00:00
+592,Atlas Enterprises,Healthcare,1390,150443,LATAM,2,2022-07-18T00:00:00
+593,Global Holdings,Retail,44687,153372,North America,15,2024-01-16T00:00:00
+594,Horizon Inc,Healthcare,1501,35044,EMEA,15,2024-12-10T00:00:00
+595,Acme Holdings,Telecommunications,1306,234004,APAC,1,2021-01-10T00:00:00
+596,Global Group,Education,117,47083,,4,2021-06-07T00:00:00
+597,Nova Software,Professional Services,148,37248,EMEA,11,2023-09-18T00:00:00
+598,Zenith Systems,Media & Entertainment,89,27105,North America,2,2022-04-12T00:00:00
+599,Zenith Platforms,Financial Services,24137,93657,North America,1,2023-01-27T00:00:00
+600,Horizon Services,,159,42551,North America,14,2020-08-30T00:00:00
+601,Vanguard Corp,Education,13773,370999,APAC,6,2023-12-07T00:00:00
+602,Velocity Digital,Financial Services,1765,22174,,13,2024-12-02T00:00:00
+603,Zenith Group,Government,1180,41210,LATAM,16,2024-06-23T00:00:00
+604,Vanguard Digital,Energy,630,208907,APAC,14,2023-01-17T00:00:00
+605,Catalyst Dynamics,Financial Services,27,28052,EMEA,9,2020-05-24T00:00:00
+606,Nexus Systems,Government,1638,105288,APAC,14,2021-06-27T00:00:00
+607,Zenith Dynamics,Transportation,174,7930,North America,13,2022-06-24T00:00:00
+608,Fusion Group,Financial Services,29,43106,LATAM,9,2023-10-17T00:00:00
+609,Elevate Labs,Media & Entertainment,1016,67763,North America,1,2023-04-10T00:00:00
+610,Atlas Group,Media & Entertainment,1774,106594,North America,2,2020-05-04T00:00:00
+611,Quantum Services,Manufacturing,42143,852112,APAC,8,2023-08-06T00:00:00
+612,Catalyst Solutions,Education,30925,1726736,,4,2024-08-08T00:00:00
+613,Vertex Platforms,Transportation,24676,733282,EMEA,15,2024-06-20T00:00:00
+614,Catalyst Software,,43931,1737812,APAC,11,2024-04-16T00:00:00
+615,Acme Networks,Manufacturing,184,17610,LATAM,13,2021-12-17T00:00:00
+616,Nexus Enterprises,Healthcare,1115,16614,EMEA,16,2024-03-30T00:00:00
+617,Vanguard Analytics,Retail,1976,84849,APAC,13,2021-03-06T00:00:00
+618,Summit Digital,Retail,196,5659,EMEA,13,2020-05-11T00:00:00
+619,Catalyst Partners,Education,978,12011,,7,2022-01-29T00:00:00
+620,Global Corp,Financial Services,44447,648011,North America,4,2023-12-21T00:00:00
+621,Apex Holdings,Energy,112,35047,APAC,13,2022-07-31T00:00:00
+622,Quantum Networks,Healthcare,7865,1056898,North America,7,2023-06-15T00:00:00
+623,Nexus Group,Professional Services,,66403,North America,13,2023-06-30T00:00:00
+624,Summit Solutions,Telecommunications,1590,175705,EMEA,1,2021-09-10T00:00:00
+625,Fusion Platforms,Healthcare,99,13783,North America,16,2024-04-08T00:00:00
+626,Catalyst Digital,Technology,1264,155837,APAC,11,2024-03-17T00:00:00
+627,Elevate Digital,Education,131,21124,LATAM,11,2022-06-04T00:00:00
+628,Nova Enterprises,Energy,1160,143592,APAC,6,2020-02-27T00:00:00
+629,Vertex Digital,Financial Services,13037,958090,EMEA,10,2020-06-10T00:00:00
+630,Nexus Holdings,Manufacturing,883,244181,LATAM,9,2023-10-20T00:00:00
+631,Acme Corp,Manufacturing,,1312350,EMEA,4,2021-07-19T00:00:00
+632,Synergy Software,Technology,38,49646,LATAM,7,2021-04-02T00:00:00
+633,Nexus Digital,Education,122,46140,APAC,5,2024-03-24T00:00:00
+634,Optima Partners,,166,35591,LATAM,4,2023-12-25T00:00:00
+635,Elevate Group,Technology,1687,245648,EMEA,14,2021-09-07T00:00:00
+636,Elevate Group,,25741,919414,LATAM,4,2023-02-10T00:00:00
+637,Synergy Labs,Energy,24,45099,LATAM,5,2023-12-14T00:00:00
+638,Elevate Services,Healthcare,156,19944,APAC,7,2021-09-13T00:00:00
+639,Elevate Services,Technology,66,26302,North America,10,2022-05-31T00:00:00
+640,Global Networks,Telecommunications,181,30350,EMEA,8,2022-05-12T00:00:00
+641,Summit Analytics,Government,182,28416,,13,2020-04-25T00:00:00
+642,Quantum Platforms,Healthcare,1937,175952,North America,7,2020-06-24T00:00:00
+643,Fusion Services,Manufacturing,1341,196417,LATAM,16,2024-10-21T00:00:00
+644,Velocity Holdings,Healthcare,1371,172674,EMEA,16,2024-06-08T00:00:00
+645,Vanguard Group,Energy,40089,1186426,EMEA,2,2023-02-21T00:00:00
+646,Atlas Solutions,Professional Services,38003,1507864,APAC,12,2021-06-22T00:00:00
+647,Atlas Partners,Media & Entertainment,71,46347,North America,13,2023-02-07T00:00:00
+648,Nova Solutions,Education,110,42861,North America,12,2024-08-01T00:00:00
+649,Summit Software,Transportation,19,7737,APAC,7,2023-02-17T00:00:00
+650,Zenith Platforms,Transportation,1783,91266,North America,15,2024-07-26T00:00:00
+651,Summit Labs,Transportation,,43010,LATAM,9,2022-02-01T00:00:00
+652,Vanguard Technologies,Technology,118,19946,APAC,9,2024-03-16T00:00:00
+653,Fusion Software,Media & Entertainment,62,20797,APAC,16,2024-11-08T00:00:00
+654,Apex Digital,Technology,1439,51464,APAC,16,2024-11-16T00:00:00
+655,Elevate Networks,Healthcare,107,37608,North America,5,2021-07-06T00:00:00
+656,Vanguard Corp,Professional Services,168,39608,LATAM,7,2021-06-22T00:00:00
+657,Pinnacle Platforms,Retail,51,632,LATAM,2,2023-07-12T00:00:00
+658,Vanguard Digital,Education,32,30242,EMEA,7,2020-11-11T00:00:00
+659,Summit Systems,Retail,138,16555,APAC,4,2023-07-18T00:00:00
+660,Optima Dynamics,Professional Services,177,14813,EMEA,9,2020-09-19T00:00:00
+661,Zenith Digital,Professional Services,67,24726,APAC,14,2022-06-03T00:00:00
+662,Acme Networks,Media & Entertainment,172,8596,LATAM,13,2022-10-04T00:00:00
+663,Pinnacle Analytics,Retail,85,1484,APAC,6,2022-04-28T00:00:00
+664,Synergy Group,Energy,79,33866,APAC,5,2023-04-03T00:00:00
+665,Summit Digital,Financial Services,1295,71246,,5,2020-06-20T00:00:00
+666,Elevate Partners,Financial Services,159,35810,APAC,7,2024-02-21T00:00:00
+667,Vanguard Technologies,Energy,507,194565,LATAM,11,2023-06-25T00:00:00
+668,Pinnacle Holdings,Energy,174,718,EMEA,15,2024-02-22T00:00:00
+669,Pinnacle Networks,Education,124,19671,APAC,2,2024-11-24T00:00:00
+670,Optima Technologies,Transportation,70,10127,APAC,8,2024-05-14T00:00:00
+671,Fusion Group,Transportation,563,-83889,EMEA,16,2024-07-17T00:00:00
+672,Vanguard Labs,Telecommunications,19,19251,LATAM,7,2023-11-09T00:00:00
+673,Nexus Inc,Education,1695,203476,North America,2,2022-01-06T00:00:00
+674,Nova Systems,Transportation,,215500,North America,6,2024-04-22T00:00:00
+675,Nova Platforms,Transportation,517,209350,LATAM,15,2024-12-17T00:00:00
+676,Elevate Services,Financial Services,1534,88759,APAC,11,2021-01-14T00:00:00
+677,Elevate Services,Education,1640,12896,LATAM,5,2020-02-05T00:00:00
+678,Global Platforms,Government,81,43264,North America,6,2023-07-24T00:00:00
+679,Apex Systems,Financial Services,80,17020,APAC,6,2021-03-07T00:00:00
+680,Nova Technologies,Energy,88,45580,EMEA,11,2020-05-07T00:00:00
+681,Synergy Digital,Energy,17632,1703359,North America,2,2020-04-19T00:00:00
+682,Vertex Solutions,Professional Services,97,14523,EMEA,13,2023-09-09T00:00:00
+683,Global Dynamics,Healthcare,887,169526,EMEA,8,2023-03-11T00:00:00
+684,Horizon Solutions,Healthcare,434,118724,APAC,14,2022-08-16T00:00:00
+685,Zenith Services,Manufacturing,46009,565867,North America,10,2021-02-12T00:00:00
+686,Acme Digital,Retail,1818,202712,,11,2021-03-11T00:00:00
+687,Fusion Labs,Technology,40,25575,,1,2024-09-22T00:00:00
+688,Pinnacle Technologies,Technology,367,104438,APAC,2,2022-05-07T00:00:00
+689,Global Services,Energy,30169,443367,LATAM,9,2023-08-19T00:00:00
+690,Vertex Systems,Telecommunications,103,36768,LATAM,8,2020-06-25T00:00:00
+691,Zenith Enterprises,Government,233,66285,North America,9,2024-07-26T00:00:00
+692,Atlas Holdings,Transportation,46,33642,EMEA,5,2022-04-19T00:00:00
+693,Atlas Dynamics,Energy,1349,178506,APAC,5,2022-02-05T00:00:00
+694,Pacific Systems,Retail,1426,17779,,14,2021-01-04T00:00:00
+695,Velocity Inc,Professional Services,21,8072,North America,3,2022-09-19T00:00:00
+696,Global Corp,Technology,79,12907,LATAM,1,2024-01-27T00:00:00
+697,Fusion Dynamics,Energy,921,161190,APAC,15,2024-06-02T00:00:00
+698,Global Group,Retail,14,35282,LATAM,13,2023-01-04T00:00:00
+699,Velocity Group,Transportation,1887,246536,LATAM,5,2021-06-01T00:00:00
+700,Synergy Holdings,Energy,184,6545,LATAM,12,2021-07-23T00:00:00
+701,Atlas Software,Education,192,33615,APAC,5,2020-01-27T00:00:00
+702,Nexus Services,,38,27451,APAC,7,2021-11-09T00:00:00
+703,Nova Networks,Government,536,214129,LATAM,13,2024-12-08T00:00:00
+704,Fusion Technologies,Energy,26494,486244,EMEA,2,2021-09-06T00:00:00
+705,Pacific Inc,Healthcare,195,18438,EMEA,13,2023-02-27T00:00:00
+706,Fusion Systems,Technology,1739,234838,APAC,13,2020-02-17T00:00:00
+707,Velocity Solutions,Manufacturing,31,13225,North America,13,2024-11-25T00:00:00
+708,Pinnacle Technologies,,106,28588,EMEA,14,2024-06-17T00:00:00
+709,Pinnacle Enterprises,Energy,124,18363,APAC,16,2024-01-12T00:00:00
+710,Zenith Solutions,Technology,84,44584,LATAM,4,2023-03-06T00:00:00
+711,Vertex Platforms,Healthcare,216,58883,APAC,1,2021-12-12T00:00:00
+712,Atlas Platforms,Telecommunications,1504,127050,,11,2020-06-15T00:00:00
+713,Atlas Software,Financial Services,24611,1517302,North America,3,2023-05-21T00:00:00
+714,Catalyst Inc,Manufacturing,1254,172984,North America,16,2024-03-20T00:00:00
+715,Vertex Partners,Government,1961,163086,APAC,3,2020-06-18T00:00:00
+716,Global Group,Retail,157,44680,EMEA,11,2023-03-09T00:00:00
+717,Elevate Technologies,Healthcare,55,20112,APAC,11,2022-10-01T00:00:00
+718,Velocity Services,Manufacturing,104,33457,LATAM,12,2022-02-23T00:00:00
+719,Vanguard Corp,Retail,27,734,,5,2024-07-08T00:00:00
+720,Summit Holdings,Education,1476,52457,LATAM,1,2022-03-30T00:00:00
+721,Elevate Group,Transportation,230,226212,APAC,11,2024-04-04T00:00:00
+722,Quantum Inc,Technology,1404,214014,North America,10,2020-11-30T00:00:00
+723,Apex Dynamics,Retail,22,47459,North America,12,2023-03-17T00:00:00
+724,Apex Systems,Technology,382,233125,,16,2024-08-26T00:00:00
+725,Summit Labs,Financial Services,21130,813131,EMEA,1,2023-10-09T00:00:00
+726,Pinnacle Solutions,,10328,206267,LATAM,1,2024-07-03T00:00:00
+727,Nexus Services,Energy,,251,LATAM,14,2022-11-10T00:00:00
+728,Nova Partners,Retail,113,36001,LATAM,15,2024-03-23T00:00:00
+729,Optima Corp,Manufacturing,41,9727,North America,12,2022-09-26T00:00:00
+730,Summit Labs,Telecommunications,115,26289,North America,5,2020-03-26T00:00:00
+731,Fusion Technologies,Manufacturing,,19966,EMEA,5,2022-05-22T00:00:00
+732,Nexus Technologies,Government,132,19882,LATAM,7,2022-11-24T00:00:00
+733,Nova Group,Government,14,43224,North America,1,2022-01-10T00:00:00
+734,Optima Software,Transportation,81,16740,EMEA,6,2024-08-25T00:00:00
+735,Zenith Holdings,Healthcare,11,40323,North America,15,2024-06-27T00:00:00
+736,Acme Digital,Transportation,187,27871,LATAM,4,2022-05-20T00:00:00
+737,Atlas Software,Media & Entertainment,16,7393,EMEA,11,2022-04-14T00:00:00
+738,Nexus Inc,Government,217,80614,APAC,2,2023-05-10T00:00:00
+739,Quantum Solutions,Government,162,8617,North America,14,2021-09-21T00:00:00
+740,Nova Inc,Professional Services,190,21039,APAC,6,2020-05-15T00:00:00
+741,Optima Group,Professional Services,1303,181324,North America,6,2023-08-31T00:00:00
+742,Vertex Group,Financial Services,788,131753,North America,1,2024-09-01T00:00:00
+743,Atlas Holdings,Financial Services,148,29399,APAC,16,2024-02-10T00:00:00
+744,Vertex Networks,Retail,83,39393,APAC,9,2023-04-19T00:00:00
+745,Catalyst Networks,Telecommunications,895,162698,APAC,11,2023-11-20T00:00:00
+746,Pinnacle Software,Education,34,13692,North America,6,2021-10-09T00:00:00
+747,Elevate Group,Telecommunications,105,39835,North America,4,2023-03-25T00:00:00
+748,Optima Labs,Media & Entertainment,163,11524,North America,3,2022-08-13T00:00:00
+749,Catalyst Technologies,Media & Entertainment,181,47146,,4,2024-10-21T00:00:00
+750,Global Platforms,Telecommunications,1433,108899,EMEA,4,2021-04-17T00:00:00
+751,Pinnacle Group,Financial Services,1645,227190,North America,3,2021-01-31T00:00:00
+752,Pacific Enterprises,Government,25866,1958382,EMEA,16,2024-07-07T00:00:00
+753,Nexus Technologies,Telecommunications,28,9420,EMEA,16,2024-11-24T00:00:00
+754,Optima Platforms,Technology,1037,206523,LATAM,13,2020-06-01T00:00:00
+755,Global Technologies,Government,1667,215615,EMEA,5,2021-03-11T00:00:00
+756,Atlas Group,Financial Services,87,33053,LATAM,12,2021-03-14T00:00:00
+757,Nexus Group,Transportation,191,30,North America,4,2024-02-21T00:00:00
+758,Quantum Corp,Government,60,41772,North America,10,2023-09-07T00:00:00
+759,Fusion Platforms,Telecommunications,9735,1595709,North America,5,2023-04-09T00:00:00
+760,Velocity Software,Energy,1758,62663,LATAM,15,2024-06-23T00:00:00
+761,Acme Corp,Healthcare,1636,125911,EMEA,10,2022-12-18T00:00:00
+762,Summit Services,Financial Services,112,35792,EMEA,11,2023-03-17T00:00:00
+763,Global Systems,Financial Services,1561,159671,North America,3,2022-03-06T00:00:00
+764,Quantum Solutions,Healthcare,,211968,North America,3,2021-08-13T00:00:00
+765,Nova Analytics,Technology,126,9586,,7,2023-09-21T00:00:00
+766,Synergy Digital,Government,66,26088,LATAM,9,2020-07-14T00:00:00
+767,Pacific Inc,Education,494,151714,North America,16,2024-03-08T00:00:00
+768,Pacific Labs,Retail,132,43631,LATAM,13,2020-02-23T00:00:00
+769,Pacific Holdings,Education,77,46819,EMEA,11,2021-05-10T00:00:00
+770,Quantum Digital,Financial Services,52,24693,EMEA,6,2024-11-12T00:00:00
+771,Velocity Partners,Financial Services,1581,128001,EMEA,6,2024-08-28T00:00:00
+772,Global Services,Technology,414,122978,LATAM,11,2023-07-18T00:00:00
+773,Acme Software,Professional Services,1081,79416,North America,14,2021-07-08T00:00:00
+774,Velocity Analytics,Professional Services,,808240,LATAM,2,2020-09-29T00:00:00
+775,Catalyst Group,Manufacturing,124,32133,North America,13,2024-03-17T00:00:00
+776,Vanguard Digital,Energy,43,21399,APAC,8,2020-09-05T00:00:00
+777,Quantum Corp,Education,179,42145,EMEA,16,2024-10-20T00:00:00
+778,Velocity Platforms,Professional Services,594,200056,,11,2024-11-24T00:00:00
+779,Elevate Inc,Healthcare,188,23602,APAC,10,2022-02-21T00:00:00
+780,Nova Group,Professional Services,134,6536,LATAM,2,2023-01-05T00:00:00
+781,Acme Solutions,Manufacturing,68,40097,LATAM,15,2024-02-10T00:00:00
+782,Pacific Labs,Professional Services,706,228210,North America,14,2020-09-16T00:00:00
+783,Catalyst Inc,Technology,52,2102,LATAM,15,2024-07-25T00:00:00
+784,Zenith Holdings,Retail,,221865,LATAM,4,2022-06-26T00:00:00
+785,Global Networks,Telecommunications,1119,235025,APAC,12,2024-06-12T00:00:00
+786,Catalyst Systems,Energy,27,11433,EMEA,2,2021-05-28T00:00:00
+787,Optima Dynamics,Retail,190,17895,EMEA,2,2021-05-23T00:00:00
+788,Pacific Platforms,Retail,171,48720,EMEA,5,2022-06-17T00:00:00
+789,Synergy Corp,Education,52,37813,North America,5,2020-07-27T00:00:00
+790,Horizon Solutions,Manufacturing,27,16710,LATAM,5,2020-05-07T00:00:00
+791,Atlas Software,Government,172,44063,APAC,14,2024-03-14T00:00:00
+792,Pinnacle Platforms,Energy,137,47095,North America,11,2024-01-13T00:00:00
+793,Vertex Digital,Energy,1289,130964,EMEA,7,2020-06-11T00:00:00
+794,Pacific Enterprises,Retail,120,41604,EMEA,6,2020-08-10T00:00:00
+795,Synergy Labs,Manufacturing,806,140456,APAC,5,2022-07-02T00:00:00
+796,Velocity Platforms,Manufacturing,,53309,North America,6,2022-10-16T00:00:00
+797,Nexus Systems,Manufacturing,800,242119,APAC,2,2020-04-29T00:00:00
+798,Elevate Solutions,Government,18,43835,LATAM,11,2024-11-01T00:00:00
+799,Pacific Holdings,Energy,79,30458,LATAM,14,2021-10-31T00:00:00
+800,Acme Labs,Transportation,87,46822,LATAM,12,2021-06-07T00:00:00
+801,Synergy Holdings,Manufacturing,52,35316,LATAM,13,2020-05-11T00:00:00
+802,Summit Solutions,Media & Entertainment,181,42117,,10,2023-08-15T00:00:00
+803,Quantum Technologies,,12798,1556196,North America,4,2023-03-17T00:00:00
+804,Velocity Systems,Media & Entertainment,1634,158186,APAC,1,2021-03-20T00:00:00
+805,Pacific Dynamics,Healthcare,895,13065,LATAM,10,2022-07-17T00:00:00
+806,Pacific Analytics,Retail,19,14508,LATAM,11,2023-11-03T00:00:00
+807,Zenith Solutions,Media & Entertainment,,1139394,EMEA,2,2024-10-05T00:00:00
+808,Apex Services,,175,14379,APAC,5,2020-05-25T00:00:00
+809,Summit Inc,Transportation,3844,324564,APAC,14,2023-01-23T00:00:00
+810,Nova Enterprises,Technology,25,965,LATAM,6,2023-01-25T00:00:00
+811,Global Digital,Energy,70,43189,North America,15,2024-04-05T00:00:00
+812,Pinnacle Technologies,Media & Entertainment,384,148046,EMEA,15,2024-01-21T00:00:00
+813,Acme Dynamics,Transportation,1100,160837,LATAM,16,2024-04-26T00:00:00
+814,Pinnacle Technologies,Healthcare,190,14311,EMEA,16,2024-08-31T00:00:00
+815,Pinnacle Services,Technology,40214,622031,LATAM,15,2024-06-06T00:00:00
+816,Elevate Technologies,Retail,765,168916,North America,6,2021-03-13T00:00:00
+817,Global Enterprises,,44,13305,APAC,7,2020-05-19T00:00:00
+818,Optima Enterprises,Media & Entertainment,94,12433,LATAM,11,2024-12-27T00:00:00
+819,Zenith Enterprises,Professional Services,33,19644,EMEA,11,2023-02-23T00:00:00
+820,Nova Group,Professional Services,1240,142407,North America,8,2024-05-04T00:00:00
+821,Zenith Inc,Government,1475,129465,EMEA,3,2021-12-27T00:00:00
+822,Optima Inc,Technology,44,47858,LATAM,15,2024-06-10T00:00:00
+823,Synergy Systems,Media & Entertainment,120,32114,LATAM,9,2023-10-10T00:00:00
+824,Horizon Analytics,Professional Services,44905,575667,APAC,2,2023-03-20T00:00:00
+825,Nexus Dynamics,Technology,,48255,,5,2021-03-10T00:00:00
+826,Apex Networks,Healthcare,47,3042,LATAM,8,2021-05-16T00:00:00
+827,Synergy Analytics,Transportation,,29857,EMEA,5,2021-12-09T00:00:00
+828,Zenith Corp,Transportation,352,168133,EMEA,7,2020-03-30T00:00:00
+829,Fusion Partners,Government,41,33669,EMEA,10,2024-02-02T00:00:00
+830,Acme Inc,Technology,93,27500,,11,2024-12-16T00:00:00
+831,Global Services,,138,3487,EMEA,12,2022-05-27T00:00:00
+832,Acme Group,Technology,600,235770,LATAM,6,2023-09-01T00:00:00
+833,Nova Inc,Manufacturing,,1567666,APAC,3,2021-11-06T00:00:00
+834,Horizon Corp,Media & Entertainment,113,49581,,4,2022-07-15T00:00:00
+835,Acme Analytics,Government,108,32013,APAC,15,2024-02-06T00:00:00
+836,Summit Holdings,Healthcare,565,222428,APAC,5,2021-01-27T00:00:00
+837,Atlas Platforms,Technology,1567,195668,LATAM,2,2023-12-02T00:00:00
+838,Nexus Holdings,Government,1214,152714,APAC,1,2023-09-19T00:00:00
+839,Summit Inc,Energy,1666,42074,North America,5,2022-12-26T00:00:00
+840,Vertex Systems,Transportation,1958,152516,North America,11,2021-08-22T00:00:00
+841,Elevate Technologies,Telecommunications,70,-17633,LATAM,9,2022-11-10T00:00:00
+842,Pinnacle Partners,Transportation,893,55740,LATAM,6,2021-04-19T00:00:00
+843,Vertex Services,Professional Services,1647,49054,EMEA,2,2023-10-07T00:00:00
+844,Pacific Inc,Government,609,118301,North America,5,2020-12-22T00:00:00
+845,Elevate Systems,Manufacturing,29065,1115405,LATAM,3,2024-06-18T00:00:00
+846,Pacific Software,Education,1538,239657,North America,2,2023-05-25T00:00:00
+847,Vanguard Inc,Healthcare,1910,232591,APAC,1,2023-01-22T00:00:00
+848,Vanguard Group,Technology,147,48766,LATAM,6,2020-09-22T00:00:00
+849,Fusion Dynamics,Financial Services,36,42989,North America,9,2024-09-29T00:00:00
+850,Pinnacle Platforms,Professional Services,98,8575,North America,7,2024-08-08T00:00:00
+851,Elevate Group,Education,15,29812,North America,16,2024-09-29T00:00:00
+852,Nexus Partners,Telecommunications,20,28999,EMEA,7,2024-06-02T00:00:00
+853,Horizon Group,Media & Entertainment,56,23348,APAC,2,2022-05-21T00:00:00
+854,Vertex Digital,Media & Entertainment,1509,39787,North America,9,2024-06-28T00:00:00
+855,Apex Software,Government,1233,94014,LATAM,8,2020-05-28T00:00:00
+856,Global Partners,Financial Services,1384,81260,EMEA,15,2024-11-30T00:00:00
+857,Fusion Labs,Technology,60,33968,EMEA,16,2024-08-25T00:00:00
+858,Pinnacle Analytics,Professional Services,1736,183395,EMEA,9,2023-12-21T00:00:00
+859,Fusion Dynamics,Government,145,38941,LATAM,6,2024-05-06T00:00:00
+860,Apex Corp,Retail,23,7581,APAC,15,2024-01-14T00:00:00
+861,Apex Services,Healthcare,1577,248169,APAC,5,2024-03-31T00:00:00
+862,Global Systems,Media & Entertainment,50,10391,APAC,1,2024-06-13T00:00:00
+863,Nova Group,Telecommunications,1518,21007,North America,14,2023-03-11T00:00:00
+864,Fusion Software,Healthcare,120,39403,North America,8,2021-04-26T00:00:00
+865,Nexus Inc,Transportation,1854,28006,North America,12,2021-04-07T00:00:00
+866,Zenith Digital,Energy,207,55942,EMEA,8,2021-03-15T00:00:00
+867,Vertex Services,Healthcare,193,3541,LATAM,11,2023-11-02T00:00:00
+868,Elevate Inc,Education,1008,207902,EMEA,5,2024-08-03T00:00:00
+869,Summit Dynamics,Transportation,19707,1746943,EMEA,4,2021-06-22T00:00:00
+870,Quantum Holdings,Manufacturing,707,154855,LATAM,13,2022-05-10T00:00:00
+871,Nova Dynamics,Financial Services,17,34832,EMEA,9,2023-02-05T00:00:00
+872,Zenith Partners,Energy,144,15948,LATAM,12,2024-10-30T00:00:00
+873,Nova Group,Healthcare,23,46359,LATAM,13,2021-06-10T00:00:00
+874,Vanguard Enterprises,Telecommunications,447,153420,EMEA,5,2021-08-10T00:00:00
+875,Optima Platforms,Technology,53,32110,APAC,12,2022-12-22T00:00:00
+876,Pinnacle Group,Professional Services,176,10522,LATAM,13,2024-08-02T00:00:00
+877,Fusion Technologies,Manufacturing,44,30551,APAC,12,2020-02-11T00:00:00
+878,Global Dynamics,Education,434,196219,,7,2020-02-18T00:00:00
+879,Acme Partners,Energy,137,48334,North America,10,2021-07-16T00:00:00
+880,Horizon Systems,Retail,92,49609,LATAM,2,2023-09-15T00:00:00
+881,Velocity Group,Education,198,22846,LATAM,5,2020-08-07T00:00:00
+882,Vanguard Inc,Healthcare,496,148355,EMEA,4,2022-04-23T00:00:00
+883,Elevate Solutions,Financial Services,34752,988037,APAC,7,2021-09-04T00:00:00
+884,Global Solutions,Retail,168,49082,,16,2024-04-04T00:00:00
+885,Velocity Labs,Transportation,198,17591,APAC,4,2020-01-25T00:00:00
+886,Apex Systems,Technology,779,103628,LATAM,8,2022-04-03T00:00:00
+887,Nexus Corp,Transportation,113,28659,North America,10,2023-08-09T00:00:00
+888,Global Software,Education,1454,102775,APAC,16,2024-11-22T00:00:00
+889,Quantum Enterprises,Financial Services,1008,244525,North America,5,2024-06-19T00:00:00
+890,Vertex Group,,36,40303,North America,9,2021-07-06T00:00:00
+891,Apex Technologies,Retail,34369,1371303,APAC,7,2023-10-08T00:00:00
+892,Horizon Networks,Professional Services,405,103543,EMEA,15,2024-03-09T00:00:00
+893,Acme Enterprises,Government,37749,622106,,10,2023-07-25T00:00:00
+894,Atlas Partners,Transportation,34,4998,LATAM,6,2023-02-17T00:00:00
+895,Summit Services,Retail,433,86486,North America,6,2020-03-04T00:00:00
+896,Pinnacle Holdings,Financial Services,63,42419,APAC,4,2020-05-13T00:00:00
+897,Fusion Solutions,Telecommunications,1272,105564,LATAM,15,2024-10-14T00:00:00
+898,Optima Platforms,Energy,151,7673,APAC,12,2022-05-20T00:00:00
+899,Optima Labs,Government,95,30909,North America,13,2023-01-11T00:00:00
+900,Apex Labs,Retail,119,13961,LATAM,11,2024-02-29T00:00:00
+901,Vanguard Services,Energy,161,34634,EMEA,15,2024-03-07T00:00:00
+902,Zenith Labs,Professional Services,41,44291,LATAM,6,2021-05-24T00:00:00
+903,Velocity Inc,Energy,1331,76240,EMEA,1,2024-03-04T00:00:00
+904,Synergy Technologies,Manufacturing,65,-18180,LATAM,8,2023-09-03T00:00:00
+905,Zenith Digital,Professional Services,253,83130,APAC,14,2024-06-16T00:00:00
+906,Optima Software,Manufacturing,1876,35899,APAC,1,2022-07-18T00:00:00
+907,Fusion Enterprises,Education,147,29979,LATAM,6,2020-04-20T00:00:00
+908,Nexus Digital,Healthcare,386,88152,North America,2,2020-11-27T00:00:00
+909,Elevate Digital,Media & Entertainment,625,36733,,14,2024-07-29T00:00:00
+910,Pinnacle Inc,Telecommunications,162,15231,LATAM,16,2024-09-27T00:00:00
+911,Synergy Services,Financial Services,24257,1812086,EMEA,14,2021-10-24T00:00:00
+912,Summit Technologies,Transportation,105,41529,APAC,3,2021-02-17T00:00:00
+913,Acme Digital,Healthcare,30216,915979,APAC,6,2020-11-18T00:00:00
+914,Vanguard Dynamics,Government,817,218533,EMEA,9,2024-11-14T00:00:00
+915,Elevate Networks,Healthcare,726,49317,LATAM,15,2024-07-10T00:00:00
+916,Nexus Corp,Education,163,45384,EMEA,12,2022-02-02T00:00:00
+917,Acme Solutions,Professional Services,179,11250,North America,1,2020-10-02T00:00:00
+918,Zenith Partners,Retail,44303,1035637,EMEA,5,2021-12-22T00:00:00
+919,Velocity Systems,Energy,940,134307,North America,6,2021-04-05T00:00:00
+920,Acme Enterprises,Energy,35,10184,EMEA,14,2020-10-08T00:00:00
+921,Vertex Platforms,Media & Entertainment,547,76170,EMEA,12,2022-07-24T00:00:00
+922,Quantum Digital,Financial Services,20502,497223,APAC,6,2023-07-05T00:00:00
+923,Catalyst Technologies,Media & Entertainment,77,7026,APAC,5,2020-11-28T00:00:00
+924,Apex Holdings,Education,543,167069,LATAM,15,2024-03-16T00:00:00
+925,Summit Group,Media & Entertainment,103,32849,LATAM,7,2023-08-27T00:00:00
+926,Vanguard Systems,Media & Entertainment,176,22035,,8,2021-01-17T00:00:00
+927,Nexus Technologies,Telecommunications,600,39508,North America,12,2020-03-08T00:00:00
+928,Vertex Solutions,Education,782,143304,APAC,3,2023-06-04T00:00:00
+929,Optima Systems,Healthcare,1249,122411,APAC,9,2022-07-21T00:00:00
+930,Pacific Networks,Energy,173,6840,LATAM,8,2020-07-15T00:00:00
+931,Quantum Labs,Financial Services,1786,114032,APAC,3,2020-05-21T00:00:00
+932,Nova Digital,Government,107,45136,APAC,2,2022-08-27T00:00:00
+933,Summit Group,Energy,389,26086,LATAM,13,2021-08-26T00:00:00
+934,Optima Solutions,Energy,10762,1181846,LATAM,15,2024-10-20T00:00:00
+935,Fusion Inc,Retail,23,31131,North America,13,2022-01-09T00:00:00
+936,Apex Systems,Government,31,30941,North America,12,2021-12-23T00:00:00
+937,Zenith Enterprises,Retail,1176,-120135,EMEA,16,2024-11-12T00:00:00
+938,Elevate Dynamics,Technology,33772,125091,APAC,1,2022-12-04T00:00:00
+939,Fusion Partners,Professional Services,30017,701289,APAC,4,2020-10-02T00:00:00
+940,Pacific Enterprises,Education,905,180194,APAC,4,2020-12-27T00:00:00
+941,Horizon Partners,Retail,67,15073,North America,10,2024-03-21T00:00:00
+942,Nova Services,Technology,30620,1401850,LATAM,4,2022-03-28T00:00:00
+943,Acme Dynamics,Education,,30738,LATAM,16,2024-03-15T00:00:00
+944,Vanguard Software,,71,23984,EMEA,11,2022-01-20T00:00:00
+945,Fusion Analytics,Professional Services,71,20843,EMEA,4,2024-11-07T00:00:00
+946,Pinnacle Partners,Professional Services,,138975,APAC,8,2023-11-27T00:00:00
+947,Elevate Corp,Energy,30819,-1583506,LATAM,8,2020-11-13T00:00:00
+948,Nexus Platforms,Telecommunications,79,9565,EMEA,14,2020-11-11T00:00:00
+949,Elevate Systems,Transportation,,43386,EMEA,2,2022-07-09T00:00:00
+950,Horizon Group,Financial Services,126,33425,EMEA,7,2021-01-09T00:00:00
+951,Elevate Platforms,Healthcare,1129,35988,LATAM,2,2022-01-18T00:00:00
+952,Pinnacle Solutions,Telecommunications,1869,107404,APAC,11,2022-01-12T00:00:00
+953,Horizon Technologies,Retail,24219,1364853,EMEA,15,2024-03-19T00:00:00
+954,Pacific Holdings,Energy,30,20094,North America,12,2022-11-02T00:00:00
+955,Elevate Platforms,Professional Services,145,28914,LATAM,8,2023-04-20T00:00:00
+956,Horizon Partners,Financial Services,170,4943,APAC,14,2020-01-05T00:00:00
+957,Elevate Systems,,96,18077,APAC,12,2022-01-31T00:00:00
+958,Horizon Systems,Professional Services,1247,236313,North America,8,2022-06-17T00:00:00
+959,Vanguard Solutions,Manufacturing,66,31115,EMEA,11,2024-10-03T00:00:00
+960,Horizon Systems,Financial Services,34,32312,North America,12,2021-06-23T00:00:00
+961,Catalyst Holdings,Government,1680,84632,North America,11,2023-02-19T00:00:00
+962,Horizon Enterprises,Professional Services,654,211620,North America,11,2022-04-07T00:00:00
+963,Apex Dynamics,Technology,117,25078,EMEA,16,2024-09-25T00:00:00
+964,Nexus Corp,Transportation,,4015,North America,5,2021-09-15T00:00:00
+965,Catalyst Holdings,Retail,236,48408,North America,9,2023-01-04T00:00:00
+966,Acme Software,Healthcare,1838,191561,LATAM,16,2024-02-02T00:00:00
+967,Synergy Labs,,136,27589,North America,10,2023-12-01T00:00:00
+968,Catalyst Technologies,Government,214,182388,EMEA,2,2022-10-17T00:00:00
+969,Acme Dynamics,Manufacturing,50,20176,EMEA,15,2024-04-17T00:00:00
+970,Pacific Group,Technology,195,24706,APAC,14,2024-04-16T00:00:00
+971,Catalyst Holdings,Manufacturing,,63160,EMEA,1,2022-07-22T00:00:00
+972,Elevate Analytics,Healthcare,82,27162,LATAM,6,2021-04-28T00:00:00
+973,Vanguard Dynamics,,76,-48426,North America,16,2024-09-05T00:00:00
+974,Acme Labs,Financial Services,718,74157,LATAM,11,2020-01-08T00:00:00
+975,Fusion Analytics,Energy,443,30046,North America,1,2020-09-15T00:00:00
+976,Summit Holdings,Technology,912,77769,APAC,1,2020-04-30T00:00:00
+977,Acme Networks,Technology,1546,200038,North America,12,2021-10-01T00:00:00
+978,Vanguard Systems,Telecommunications,,134238,EMEA,12,2020-09-24T00:00:00
+979,Global Technologies,Government,128,12487,LATAM,13,2022-01-08T00:00:00
+980,Nova Networks,Retail,39,8989,LATAM,12,2023-09-30T00:00:00
+981,Nova Inc,Financial Services,43,48205,North America,14,2022-08-31T00:00:00
+982,Zenith Enterprises,Professional Services,87,15485,North America,8,2021-03-24T00:00:00
+983,Global Technologies,Energy,39988,442341,North America,2,2022-12-04T00:00:00
+984,Catalyst Technologies,Transportation,42,35381,North America,7,2021-10-17T00:00:00
+985,Summit Partners,Manufacturing,107,14451,North America,14,2021-09-06T00:00:00
+986,Nova Partners,Energy,1042,124691,APAC,12,2023-10-24T00:00:00
+987,Acme Services,Professional Services,1219,161149,North America,13,2023-08-22T00:00:00
+988,Global Holdings,Financial Services,93,16988,LATAM,9,2023-09-21T00:00:00
+989,Nexus Holdings,Telecommunications,13,15064,North America,13,2022-11-04T00:00:00
+990,Nexus Group,,664,131529,LATAM,5,2023-05-26T00:00:00
+991,Elevate Labs,Manufacturing,,47763,North America,11,2023-06-13T00:00:00
+992,Acme Corp,Healthcare,53,45612,North America,9,2024-01-17T00:00:00
+993,Horizon Partners,Transportation,78,17947,North America,14,2023-07-26T00:00:00
+994,Vanguard Group,Energy,28946,334281,North America,14,2023-02-12T00:00:00
+995,Pacific Software,Professional Services,82,35923,LATAM,14,2024-03-17T00:00:00
+996,Apex Digital,Government,24,48046,EMEA,14,2022-10-09T00:00:00
+997,Global Services,Manufacturing,21075,808382,EMEA,2,2024-12-16T00:00:00
+998,Global Networks,Media & Entertainment,38388,607443,North America,6,2022-02-11T00:00:00
+999,Pacific Labs,Manufacturing,31,4147,EMEA,4,2024-02-21T00:00:00
+1000,Vertex Labs,Financial Services,154,35923,North America,14,2021-04-28T00:00:00
