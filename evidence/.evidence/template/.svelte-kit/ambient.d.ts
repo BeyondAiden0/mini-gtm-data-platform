@@ -30,6 +30,7 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_IPC_AUTH_TOKEN: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
+	export const npm_config_audit: string;
 	export const INIT_CWD: string;
 	export const TERM: string;
 	export const SHELL: string;
@@ -83,11 +84,13 @@ declare module '$env/static/private' {
 	export const SHLVL: string;
 	export const HOME: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
+	export const npm_config_loglevel: string;
 	export const HOMEBREW_PREFIX: string;
 	export const npm_config_cache: string;
 	export const LOGNAME: string;
 	export const npm_lifecycle_script: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
+	export const npm_config_fund: string;
 	export const npm_config_user_agent: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const GIT_ASKPASS: string;
@@ -133,6 +136,7 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_IPC_AUTH_TOKEN: string;
 		TERM_PROGRAM: string;
 		NODE: string;
+		npm_config_audit: string;
 		INIT_CWD: string;
 		TERM: string;
 		SHELL: string;
@@ -186,11 +190,13 @@ declare module '$env/dynamic/private' {
 		SHLVL: string;
 		HOME: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
+		npm_config_loglevel: string;
 		HOMEBREW_PREFIX: string;
 		npm_config_cache: string;
 		LOGNAME: string;
 		npm_lifecycle_script: string;
 		VSCODE_GIT_IPC_HANDLE: string;
+		npm_config_fund: string;
 		npm_config_user_agent: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		GIT_ASKPASS: string;
