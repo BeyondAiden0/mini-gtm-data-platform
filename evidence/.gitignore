@@ -1,5 +1,4 @@
-.evidence/template
-.evidence/meta
+.evidence/
 .svelte-kit
 build
 node_modules
