@@ -39,7 +39,7 @@ Below is a flowchart outlining my approach to this assignment
 
 ```mermaid
 flowchart TD
-    A[User enters account/prospect<br/>example:] --> B[agent.py parses CLI input]
+    A[User enters account<br/>] --> B[agent.py parses CLI input]
 
     B --> C[resolver.py<br/>classify input]
     C --> D{Input type?}
