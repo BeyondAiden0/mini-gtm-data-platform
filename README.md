@@ -10,180 +10,73 @@ To submit, send us a link to your fork with a README outlining your approach and
 
 We're looking forward to seeing your work!
 
-## Quick Setup
+## My approach
 
-Run the setup script to initialize everything:
+My approach to this assignment can be split into three major steps.
 
-```bash
-./setup.sh
+* Input Resolution
+  * Given a user input at the terminal (email, name, ID)
+  * Classify the user input and search the warehouse
+  * Search ```marts``` schema wherever possible, since that is the cleaned data
+    * Attempt to dynamically search through the database. Assign different roles for columns based on their names.
+    * For each column, search for the input. Use exact matching for emails and IDs, but fuzzy matching for names ("apex" input can find "Apex Group" or "Apex Technologies")
+  * Fallback to ```staging``` if no results are found in marts
+  * Once a match is found, return an ```account_id```
+
+* Gather context 
+  * After we find the account, ```context.py``` retrieves data from the marts tables
+    * Account summary from dim_accounts
+    * Deal history from fct_opportunities
+    * Recent call intelligence from fct_calls
+    * Marketing engagement from fct_funnel
+    * Product usage from fct_product_usage
+  
+* Drafting the email
+  * ```draft.py``` takes the gathered context and creates a short email. 
+  * The personalized email prioritizes deal context, then product usage, then marketing engagement.
+  * CLI prints the final drafted email. 
+Below is a flowchart outlining my approach to this assignment
+
+```mermaid
+flowchart TD
+    A[User enters account/prospect<br/>example:] --> B[agent.py parses CLI input]
+
+    B --> C[resolver.py<br/>classify input]
+    C --> D{Input type?}
+
+    D -->|Email| E[Search email-like columns]
+    D -->|ID| F[Search id-like columns]
+    D -->|Name| G[Search name-like columns]
+
+    E --> H[Search marts first]
+    F --> H
+    G --> H
+
+    H --> I{Found account candidate?}
+    I -->|Yes| K[Use best account match]
+    I -->|No| J[Search staging fallback]
+
+    J --> K
+
+    K --> L[context.py<br/>pull account context]
+
+    L --> M[Account summary<br/>dim_accounts]
+    L --> N[Deal history<br/>fct_opportunities]
+    L --> O[Call intelligence<br/>fct_calls]
+    L --> P[Marketing engagement<br/>fct_funnel]
+    L --> Q[Product usage<br/>fct_product_usage]
+
+    M --> R[draft.py]
+    N --> R
+    O --> R
+    P --> R
+    Q --> R
+
+    R --> S[Draft personalized outreach email]
+    S --> T[Print final email]
 ```
+## Future implementations
 
-This will:
-1. Generate synthetic GTM data (accounts, opportunities, stage history, contacts, contact roles, leads, calls, trackers, campaigns, activities, product users/events)
-2. Initialize Airflow and load data into DuckDB
-3. Run dbt transformations (staging → marts)
+In regards to dynamically searching the database, given more time I would have used cosine similarity to determine how similar an output is to an input. I believe this would yield more accurate confidence measurements, and better candidate finding as a result. Also, right now the agent simply picks the top scoring result, in a more robust solution, there will be a disambiguation step added to specify which company is the intended recipient("apex" input to "Apex Technologies" vs "Apex Group"). 
 
-Then view the dashboards:
-
-```bash
-cd evidence
-npm install       # First time only
-npm run sources   # Build data sources
-npm run dev       # Start dev server
-# Open http://localhost:3000
-```
-
----
-
-## Manual Setup (Advanced)
-
-<details>
-<summary>Click to expand manual setup steps</summary>
-
-### 1. Install dependencies
-
-```bash
-uv sync
-```
-
-### 2. Generate synthetic data
-
-```bash
-uv run python scripts/generate_all.py
-```
-
-### 3. Initialize Airflow
-
-First, update `airflow/airflow.cfg` to use an absolute path for the database:
-
-```bash
-cd airflow
-# Update sql_alchemy_conn in airflow.cfg to:
-# sql_alchemy_conn = sqlite:////absolute/path/to/your/mini-data-platform-gtm/airflow/airflow.db
-
-export AIRFLOW_HOME=$(pwd)
-uv run airflow db migrate
-```
-
-### 4. Run ingestion DAGs
-
-```bash
-# From airflow/ directory
-export AIRFLOW_HOME=$(pwd)
-uv run python dags/ingest_accounts.py
-uv run python dags/ingest_opportunities.py
-uv run python dags/ingest_stage_history.py
-uv run python dags/ingest_contacts.py
-uv run python dags/ingest_contact_roles.py
-uv run python dags/ingest_leads.py
-uv run python dags/ingest_calls.py
-uv run python dags/ingest_call_trackers.py
-uv run python dags/ingest_campaigns.py
-uv run python dags/ingest_lead_activities.py
-uv run python dags/ingest_product_users.py
-uv run python dags/ingest_product_events.py
-```
-
-### 5. Run dbt transformations
-
-```bash
-# From airflow/ directory
-export AIRFLOW_HOME=$(pwd)
-uv run python dags/run_dbt.py
-
-# Or run dbt directly
-cd ../dbt_project
-uv run dbt build --profiles-dir .
-```
-
-</details>
-
-## Project Structure
-
-```
-mini-data-platform-gtm/
-├── sources/
-│   └── postgres/             # All raw source data (CSV files)
-├── airflow/
-│   ├── dags/                 # Airflow DAGs for ingestion and transformation
-│   │   ├── ingest_*.py       # Load data from sources → raw schema
-│   │   ├── run_dbt.py        # Run dbt staging → marts pipeline
-│   │   └── build_evidence.py # Build Evidence dashboards
-│   └── utils/                # Shared utilities (warehouse.py)
-├── warehouse/                # DuckDB database (data.duckdb)
-├── dbt_project/              # dbt transformations
-│   └── models/
-│       ├── staging/          # Clean raw data (12 models)
-│       └── marts/            # Analytics-ready tables (6 models)
-├── evidence/                 # Evidence BI dashboards
-│   ├── pages/                # Dashboard pages (pipeline, deals, funnel, forecast, adoption)
-│   └── sources/              # SQL queries and DuckDB connection
-└── scripts/                  # Data generation scripts
-```
-
-## Data Pipeline
-
-### Raw Layer (`raw` schema)
-
-- Loaded by Airflow ingestion DAGs
-- 12 tables: accounts, opportunities, stage_history, contacts, contact_roles, leads, calls, call_trackers, campaigns, lead_activities, product_users, product_events
-
-### Staging Layer (`staging` schema)
-
-- Created by dbt
-- 12 views with data cleaning (fix negatives, cap impossible values, filter nulls, remove future timestamps, deduplicate)
-
-### Marts Layer (`marts` schema)
-
-- Created by dbt
-- 6 denormalized tables:
-  - `dim_accounts` — Accounts enriched with pipeline stats, contact counts, segment classification
-  - `dim_reps` — Sales rep dimension with win rate, pipeline, call activity metrics
-  - `fct_opportunities` — Opportunities joined with account, call stats, call intelligence, multi-threading, lead attribution
-  - `fct_calls` — Sales calls with opportunity/account context and tracker topic summaries
-  - `fct_funnel` — Lead-to-close funnel with marketing attribution and engagement metrics
-  - `fct_product_usage` — Account-level monthly product usage with feature adoption and engagement tiers
-
-## Data Volumes
-
-- **Raw**: ~130K total rows across 12 tables
-- **Staging**: Same as raw (views with cleaning)
-- **Marts**: ~1K dimension rows + ~40K fact rows
-- **Database Size**: ~10-15 MB (DuckDB)
-
-## Evidence Dashboards
-
-The project includes interactive dashboards built with Evidence:
-
-### Available Dashboards
-
-1. **Pipeline Overview** (`/`) — Total pipeline, stage distribution, segment/region breakdown, monthly trends
-2. **Deal Intelligence** (`/deals`) — Win/loss analysis, loss reasons, competitive intel from call trackers, call insights
-3. **Full Funnel** (`/funnel`) — Lead-to-close conversion rates, channel ROI, marketing attribution, engagement analysis
-4. **Forecast** (`/forecast`) — Forecast categories, weighted pipeline, rep commit analysis, quarterly trends
-5. **Product Usage** (`/adoption`) — Product usage analytics, feature adoption, engagement tiers, usage vs revenue
-
-### Running Evidence
-
-```bash
-cd evidence
-npm install       # First time only
-npm run sources   # Build data sources
-npm run dev       # Start dev server
-```
-
-Then open http://localhost:3000 to view dashboards.
-
-**Note**: Evidence connects to the DuckDB warehouse at `../warehouse/data.duckdb` and queries the `marts` and `staging` schemas through pass-through SQL files in `evidence/sources/warehouse/`.
-
-### Building Evidence (Static Site)
-
-```bash
-# Using Airflow DAG
-cd airflow
-uv run python dags/build_evidence.py
-
-# Or build directly
-cd evidence
-npm run build
-```
+In regards to the email drafting itself, with LLM models being so readily available, I think it would be best to offload the email writing part to an LLM. A rudimentary approach would be to simply link an ChatGPT API key and send the request to ChatGPT, however, this will end up being costly in the long run, as well as sensitive data being uploaded to OpenAI servers. A better approach could be to use a smaller local model instead, since writing emails using provided data is not necessarily a difficult task that requires incredible amounts of compute. I chose not to implement the local model due to the size of the model being a few GB, which is impractical to upload to github. Given more time to work on this, I think the local LLM could do an even better job if I had access to previously written outreach emails, from which I can build a RAG pipeline so the drafting step can learn from pervious examples of effective messaging. 
